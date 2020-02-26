@@ -5,7 +5,7 @@ using namespace std;
 
 void myInit()
 {
-	glClearColor(1, 1, 1, 0);
+	glClearColor(0.8, 0.5, 0.3, 0);
 	glColor3f(0, 0, 0);
 	glPointSize(4);
 	glMatrixMode(GL_PROJECTION);
@@ -16,11 +16,25 @@ void myInit()
 void myDisplay()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
+	glPointSize(4);
+	glColor3f(1, 0.8, 0);
+	glBegin(GL_POINTS);
+	{
+		glVertex2f(26, 267);
+	}
+	glEnd();
+	glPointSize(65);
+	glColor3f(1, 0.3, 0.8);
+	glBegin(GL_POINTS);
+	{
+		glVertex2f(220, 600);
+	}
+	glEnd();
+	glPointSize(20);
+	glColor3f(0.3, 1, 1);
 	glBegin(GL_POINTS);
 	{
 		glVertex2f(600, 15);
-		glVertex2f(220, 600);
-		glVertex2f(15, 68);
 	}
 	glEnd();
 	glFlush();
