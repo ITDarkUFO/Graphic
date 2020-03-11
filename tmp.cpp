@@ -8,14 +8,20 @@ class Point
 private:
 	float x;
 	float y;
+	int size;
+	unsigned char r;
+	unsigned char g;
+	unsigned char b;
+
 public:
 	Point();
-	Point(float ax, float ay);
-	float getx();
-	float gety();
-	void setx(float ax);
-	void sety(float ay);
-	void draw();
+	Point(float x, float y, int size = 1, unsigned char r = 0, unsigned char g = 0, unsigned char b = 0);
+	float getx() const;
+	float gety() const;
+	void setx(float x);
+	void sety(float y);
+	void draw() const;
+	void setPt(int size = 1, float r = 0, float g = 0, float b = 0);
 };
 
 void myInit()
@@ -31,13 +37,13 @@ void myInit()
 void myDisplay()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	glPointSize(10);
 	Point p1;
+	p1.setPt(15);
 	p1.setx(100);
 	p1.sety(130);
 	p1.draw();
-	glColor3f(1, 0.3, 0.5);
 	Point p2(350.5, 240);
+	p2.setPt(20, 255, 67.5, 112.5);
 	p2.draw();
 	glFlush();
 }
@@ -57,39 +63,57 @@ Point::Point()
 {
 	x = 0;
 	y = 0;
+	r = 0;
+	g = 0;
+	b = 0;
+	size = 1;
 }
 
-Point::Point(float ax, float ay)
+Point::Point(float x, float y, int size, unsigned char r, unsigned char g, unsigned char b)
 {
-	x = ax;
-	y = ay;
+	this->x = x;
+	this->y = y;
+	this->size = size;
+	this->r = r;
+	this->g = g;
+	this->b = b;
 }
 
-float Point::getx()
+float Point::getx() const
 {
 	return x;
 }
 
-float Point::gety()
+float Point::gety() const
 {
 	return y;
 }
 
-void Point::setx(float ax)
+void Point::setx(float x)
 {
-	x = ax;
+	this->x = x;
 }
 
-void Point::sety(float ay)
+void Point::sety(float y)
 {
-	y = ay;
+	this->y = y;
 }
 
-void Point::draw()
+void Point::draw() const
 {
+	glColor3ub(r, g, b);
+	glPointSize(size);
 	glBegin(GL_POINTS);
 	{
 		glVertex2f(x, y);
 	}
 	glEnd();
+}
+
+void Point::setPt(int size, float r, float g, float b)
+{
+	this->size = size;
+	this->r = r;
+	this->g = g;
+	this->b = b;
 }
