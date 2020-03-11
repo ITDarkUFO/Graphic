@@ -36,6 +36,9 @@ void myDisplay()
 	p1.setx(100);
 	p1.sety(130);
 	p1.draw();
+	glColor3f(1, 0.3, 0.5);
+	Point p2(350.5, 240);
+	p2.draw();
 	glFlush();
 }
 
