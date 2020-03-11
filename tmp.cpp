@@ -20,7 +20,7 @@ public:
 
 void myInit()
 {
-	glClearColor(0.8, 0.5, 0.3, 0);
+	glClearColor(1, 1, 1, 0);
 	glColor3f(0, 0, 0);
 	glPointSize(4);
 	glMatrixMode(GL_PROJECTION);
@@ -33,6 +33,8 @@ void myDisplay()
 	glClear(GL_COLOR_BUFFER_BIT);
 	glPointSize(10);
 	Point p1;
+	p1.setx(100);
+	p1.sety(130);
 	p1.draw();
 	glFlush();
 }
