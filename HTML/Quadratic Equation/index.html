@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Квадратное уравнение</title>
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="center_block">
+            <h1 class="title">Введите значения коэффициентов квадратного уравнения</h1>
+            <form style="margin-bottom: 0.8em;">
+                <div>
+                    <input class="text" id="a" type="text" size="1" autocomplete="off">
+                    <span> x² + </span>
+                    <input class="text" id="b" type="text" size="1" autocomplete="off">
+                    <span> x + </span>
+                    <input class="text" id="c" type="text" size="1" autocomplete="off">
+                    <span> = 0</span>
+                </div>
+                <div style="margin-top: 0.8em;">
+                    <input type="button" onclick = "solve();" value="Вычислить">
+                    <input type="button" onclick = "
+                    document.getElementById('a').value = '';
+                    document.getElementById('b').value = '';
+                    document.getElementById('c').value = '';" value="Очистить">
+                </div>
+            </form>
+            <span id="result"></span>
+        </div>
+    </body>
+    <script>
+        "use strict";
+
+        function solve()
+        {
+            let a = document.getElementById("a").value;
+            let b = document.getElementById("b").value;
+            let c = document.getElementById("c").value;
+            let result = document.getElementById("result")
+            if (!isNaN(a) && !isNaN(b) && !isNaN(c) && (a != "" || b != "" || c != ""))
+                if (a == 0)
+                    if (b == 0)
+                        if (c == 0)
+                            result.innerText = "0 == 0";
+                        else
+                            result.innerText = c + " != 0";
+                    else
+                        result.innerText = "x = " + (-c / b);
+                else
+                {
+                    let D = b * b - 4 * a * c;
+
+                    if (D == 0)
+                        result.innerText = "x = " + (-b / (2 * a));
+                    else if (D > 0)
+                        result.innerText = "x₁ = " + ((-b + Math.sqrt(D)) / (2 * a)) + "\nx₂ = " + ((-b - Math.sqrt(D)) / (2 * a));
+                    else
+                        result.innerText = "x₁ = " + ((-b) / (2 * a)) + " + " + (Math.sqrt(-D) / (2 * a)) + "i\nx₂ = " + ((-b) / (2 * a)) + " - " + (Math.sqrt(-D) / (2 * a)) + "i";
+                }
+            else
+                document.getElementById("result").innerText = "Введены неправильные значения.\nПопробуйте еще раз.";
+        }
+    </script>
+</html>
