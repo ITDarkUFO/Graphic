@@ -1,0 +1,73 @@
+html
+{
+	width: 100%;
+	height: auto;
+	background: #8F5F55;
+	color: #404547;
+	user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	word-break: break-word;      
+}
+
+html::-webkit-scrollbar
+{
+	width: 0;
+}
+
+body
+{
+	width: 100%;
+	height: max-content;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	overflow: auto;
+	margin: 0;
+	font-family: Arial;
+}
+
+main, article { display: block; }
+
+h1, h2, h3, h4, h5, h6, h7 { display: inline; }
+
+.center_block
+{
+	display: block;
+	text-align: center;
+	margin: 15vh 0 15vh 0;
+	padding: 0 5vh 5vh 5vh;
+	width: 60vw;
+	background-color: #c9b5b8;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.title
+{
+	display: block;
+	font-size: 6vh;
+	margin-top: 1em;
+}
+
+form, input, button, span
+{
+	font-size: 5vh;
+	color: #404547;
+}
+
+input.text
+{
+	border: 0;
+	box-shadow: inset 2px 2px 6px #404547, 0px 0px 0px #404547;
+	padding-left: 5px;
+}
+
+span#result
+{
+	user-select: all;
+	-moz-user-select: all;
+	-khtml-user-select: all;
+}
