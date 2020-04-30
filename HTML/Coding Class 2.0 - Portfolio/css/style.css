@@ -1,0 +1,151 @@
+@media (max-width: 642px)
+{
+	.infobox
+	{
+		display: block !important;
+		margin-left: 0 !important;
+	}
+}
+
+@media (max-width: 952px)
+{
+	form > fieldset > span:nth-child(1)
+	{
+		display: block;
+		margin-bottom: 1em;
+		margin-right: 0 !important;
+	}
+}
+
+html
+{
+	width: 100%;
+    	height: auto;
+	background: #262a01;
+	color: white;
+}
+
+html::-webkit-scrollbar
+{
+    	width: 0;
+}
+
+body
+{
+	width: 100%;
+	height: max-content;
+    	top: 0;
+    	left: 0;
+    	display: flex;
+    	align-content: center; 
+    	justify-content: center; 
+	overflow: auto;
+	margin: 0;
+	padding: 2em 0;
+}
+
+main, article { display: block; }
+
+h1, h2, h3, h4, h5, h6, h7 { display: inline; }
+
+/* Основная разметка */
+.center-block
+{
+	width: 70vw;
+	min-width: calc(398px + 4vw * 2);
+	height: max-content;
+	padding: 4em 4vw 1em;
+	background: #5C662E;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.block-1
+{
+	margin-bottom: 1em;
+}
+
+.infobox
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1em
+}
+
+.block-2
+{
+	text-align: center;
+	padding: 1em 4vw 1em;
+}
+
+.about
+{
+	margin-top: 1em;
+	text-align: left;
+	line-height: 1.5;
+}
+
+#toogle
+{
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.sub-block
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* Таблица */
+table, th, td
+{
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+
+table
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+th
+{
+	padding: 10px;
+}
+
+fieldset
+{
+	padding: 0;
+    	margin: 0;
+	border: 0;
+}
+
+/* Форма ввода */
+form
+{
+	text-align: center;
+}
+
+input
+{
+	border-radius: 8px;
+   	font-size: 13px;
+    	padding: 6px 0 4px 10px;
+    	border: 1px solid #cecece;
+	background: #F6F6f6;
+	outline: 0;
+}
+
+input:focus
+{
+    	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), inset 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.input-1
+{
+	width: 20em;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>Coding Class 2.0 - Test task</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+<main> 
+    <div class="center-block block-1">
+        <div class="sub-block">
+            <img src="https://sun9-24.userapi.com/c847017/v847017174/136dd4/ShMTUwLwWh4.jpg" style="width: auto; height: 15em; border: 2px solid;"/>
+            <div class="infobox">
+                <h1>Михалев Андрей</h1>
+                <p><span style="font-weight: bold;">Адрес: </span><span>Челябинск</span></p>
+                <p><span style="font-weight: bold;">Опыт работы: </span><span>Отсутствует</span></p>
+                <p><span style="font-weight: bold;">Телефон: </span><span>+7 (922) 722-24-54</span></p>
+            </div>
+        </div>
+        <div class="sub-block">
+            <table>
+                <span style="font-size: larger; margin-bottom: 0.5em;">Знание языков:</span>
+                <tr><th></th><th>C++</th><th>C#</th><th>Java</th><th>JavaScript</th><th>Swift</th></tr>
+                <tr><th>Отличное владение</th><th>Нет</th><th>Нет</th><th>Нет</th><th>Нет</th><th>Нет</th></tr>
+                <tr><th>Хорошее владение</th><th>Да</th><th>Нет</th><th>Да</th><th>Нет</th><th>Нет</th></tr>
+                <tr><th>Среднее владение</th><th>Нет</th><th>Нет</th><th>Нет</th><th>Нет</th><th>Нет</th></tr>
+                <tr><th>Плохое владение</th><th>Нет</th><th>Нет</th><th>Нет</th><th>Да</th><th>Нет</th></tr>
+            </table>
+        </div>
+        <div class="sub-block">
+            <form>
+                <fieldset>
+                    <span style="margin-right: 2em;">
+                        <label for="name">Имя: </label><input type="text" id="name" class="input-1" placeholder="Имя Фамилия Отчество">
+                    </span>
+                    <span>
+                        <label for="phone">Номер телефона: </label><input type="tel" id="phone" class="input-2" placeholder="+7 (___) ___-__-__">
+                    </span>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="center-block block-2">
+        <span id="toggle" style="cursor: pointer; font-size: x-large;">Кликните сюда, чтобы узнать меня подробнее</span>
+        <div id="animation" class="about" style="display: none;">
+            <span>Добро пожаловать на страницу с тестовым заданием для курса Coding Class 2.0!
+                <br>Меня зовут Михалев Андрей, я студент 2 курса математического факультета Челябинского Государственного Университета.
+                <br>Призер соревнований по робототехнике Челябинской области, участник всероссийских соревнований по робототехнике.
+                <br>Дружелюбный, трудолюбивый (немножко трудоголик), умею работать в команде и обожаю сладкое.
+                <br>(´｡• ᵕ •｡)</span></div>
+    </div>
+</main>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+<!-- Основной код -->
+<script>
+    $(document).ready(function() { $('#toggle').on("click", function() { $('#animation').toggle(); }); });
+</script>
+
+</body>
+</html>
