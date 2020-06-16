@@ -6,13 +6,16 @@ $.ajax({
         $data.forEach($value => {
             $object += "<div class=\"lot\">";
             $path = $value["path"];
+            $author = $value["author"];
             $title = $value["title"];
             $desc = $value["desc"];
             $img = $value["img"];
             $start_cost = $value["start_cost"];
-            $object += "<a href=\"" + $path + "\" title=\"" + $title + "\">" + $title + "</a>";
-            $object += "<img src=\"" + $img + "\" alt=\"" + $title + "\"/>";
-            $object += "<span>Стартовая стоимость: " + $start_cost + "</span>";
+            $object += "<a class=\"lot_link\" href=\"" + $path + "\" title=\"" + $title + "\">" + $title + "</a>";
+            $object += "<span class=\"lot_author\">" + $author + "</span>";
+            $object += "<img class=\"lot_img\" src=\"" + $img + "\" alt=\"" + $title + "\"/>";
+            $object += "<span class=\"lot_desc\">" + $desc + "</span>";
+            $object += "<span class=\"lot_cost\">Стартовая стоимость: $" + $start_cost + "</span>";
             $object += "</div>";
         });
         $object += "</div>";
