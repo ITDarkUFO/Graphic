@@ -8,7 +8,7 @@ $.ajax({
             $path = $value["path"];
             $title = $value["title"];
             $desc = $value["desc"];
-            $object += "<a href=\"" + $path + "\" title=\"" + $title + "\"></a>";
+            $object += "<a href=\"" + $path + "\" title=\"" + $title + "\">" + $title + "</a>";
             $object += "</div>";
         });
         $object += "</div>";
