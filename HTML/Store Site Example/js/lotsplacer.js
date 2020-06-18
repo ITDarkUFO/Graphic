@@ -37,7 +37,7 @@ function addtocart(id)
     else
     {
         console.log(0);
-        deleteCookie(cart);
+        deleteCookie("cart");
     }
 }
 
