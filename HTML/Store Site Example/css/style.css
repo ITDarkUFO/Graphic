@@ -2,8 +2,10 @@
 {
     html
     {
-        background: linear-gradient(to top left, #EBCD8D, #AFD49D);
+        background: linear-gradient(to top left, #4E38B5, #AFD49D);
         color: black;
+        width: 100%;
+        height: 100%;
     }
     .lot_list
     {
@@ -13,7 +15,8 @@
     .lot
     {
         padding: 1em;
-        background-color: #D4D4D4;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
         border: 1px solid;
         margin-left: auto;
         margin-right: auto;
