@@ -79,5 +79,59 @@
         "desc": "Описание №9",
         "img": "#",
         "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №10",
+        "desc": "Описание №10",
+        "img": "#",
+        "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №11",
+        "desc": "Описание №11",
+        "img": "#",
+        "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №12",
+        "desc": "Описание №12",
+        "img": "#",
+        "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №13",
+        "desc": "Описание №13",
+        "img": "#",
+        "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №14",
+        "desc": "Описание №14",
+        "img": "#",
+        "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №15",
+        "desc": "Описание №15",
+        "img": "#",
+        "start_cost": 2300000
     }
 ]
