@@ -41,11 +41,11 @@ function isincart(id)
 {
     if ($cart.indexOf(id) == -1)
     {
-        return "Убрать из корзины";
+        return "Добавить в корзину";
     }
     else
     {
-        return "Добавлено в корзину";
+        return "Убрать из корзины";
     }
 }
 
