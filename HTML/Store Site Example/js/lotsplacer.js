@@ -34,7 +34,14 @@ function addtocart(id)
             return el != undefined;
         });
     }
-    document.cookie="cart=" + $cart;
+    if ($cart != [])
+    {
+        document.cookie="cart=" + $cart;
+    }
+    else
+    {
+        deleteCookie(cart);
+    }
 }
 
 function isincart(id)
