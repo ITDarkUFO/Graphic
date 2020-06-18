@@ -153,6 +153,25 @@
         width: auto;
     }
 
+    /* Страницы */
+    .pages
+    {
+        display: flex;
+        margin-bottom: 3em;
+        justify-content: center;
+    }
+    
+    .pages > a
+    {
+        margin-left: 3em;
+    }
+    
+    .pages > a:first-child
+    {
+        margin-left: 0;
+        text-decoration: underline;
+    }
+
     /* Подвал */
     .bottom_wrapper
     {

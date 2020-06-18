@@ -78,5 +78,7 @@ $.ajax({
         });
         $object += "</div>";
         $("main").append($object);
+        
+        $("main").append("<div class=\"pages\"><a>1</a><a href=\"#\">2</a><a href=\"#\">3</a><a href=\"#\">4</a><a href=\"#\">5</a></div>");
     }
 });
