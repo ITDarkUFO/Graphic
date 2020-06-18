@@ -4,7 +4,7 @@ $.ajax({
     {
         $object = "<div class=\"lot_list\">";
         $data.forEach($value => {
-            $object = "<div class=\"lot\">";
+            $object += "<div class=\"lot\">";
             $path = $value["path"];
             $author = $value["author"];
             $author_path = $value["author_path"]
