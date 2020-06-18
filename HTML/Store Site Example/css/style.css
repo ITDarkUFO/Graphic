@@ -27,27 +27,27 @@
         min-height: 6em;
         display: flex;
         align-items: center;
-        color: white;
+        color: #edeef0;
         background-color: #AE93D9;
         margin-bottom: 1em;
         transition: 1s;
     }
 
-    header > * a {
+    header > * a, bottom > * a {
         color: #edeef0;
         font-size: 1.2em;
     }
-    .logo, .menu, .sighup
+    .logo, .header_menu, .sighup
     {
         margin-left: auto;margin-right: auto;
     }
 
-    .logo, .menu, .menu > ul > li, .sighup
+    .logo, .header_menu, .header_menu > ul > li, .sighup
     {
         display: inline-block;
     }
 
-    .menu > ul {
+    .header_menu > ul {
         list-style-type: none;
         margin-block-start: 0;
         margin-block-end: 0;
@@ -56,7 +56,7 @@
         padding-inline-start: 0;
     }
     
-    .menu > ul > li {
+    .header_menu > ul > li {
         margin: 0 4em 0 4em;
     }
 
