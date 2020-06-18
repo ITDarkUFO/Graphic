@@ -36,6 +36,7 @@
     .lot_img
     {
         width: inherit;
+        margin-bottom: 1em;
     }
 
     .lot_desc, .lot_cost {
