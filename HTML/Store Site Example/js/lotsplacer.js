@@ -2,7 +2,7 @@ $.ajax({
     url: './js/json/paintings.json',
     success: function($data)
     {
-        $("main").append("<div class=\"lot_list\">");
+        $object = "<div class=\"lot_list\">";
         $data.forEach($value => {
             $object = "<div class=\"lot\">";
             $path = $value["path"];
@@ -18,8 +18,8 @@ $.ajax({
             $object += "<span class=\"lot_desc\">" + $desc + "</span>";
             $object += "<span class=\"lot_cost\">Стартовая стоимость: $" + $start_cost + "</span>";
             $object += "</div>";
-            $("main").append($object);
         });
-        $("main").append("</div>");
+        $object += "</div>";
+        $("main").append($object);
     }
 });
