@@ -52,5 +52,32 @@
         "desc": "Описание №6",
         "img": "#",
         "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №7",
+        "desc": "Описание №7",
+        "img": "#",
+        "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №8",
+        "desc": "Описание №8",
+        "img": "#",
+        "start_cost": 2300000
+    },
+    {
+        "path": "#",
+        "author": "",
+        "author_path": "#",
+        "title": "Картина №9",
+        "desc": "Описание №9",
+        "img": "#",
+        "start_cost": 2300000
     }
 ]
