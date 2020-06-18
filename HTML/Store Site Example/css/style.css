@@ -1,11 +1,10 @@
  @media (min-width: 980px)
-{
-    html, body
+{   
+    /* Текст */
+    header a, bottom a, bottom .copyright
     {
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin: 0;
+        color: #edeef0;
+        font-size: 1.2em;
     }
 
     a
@@ -15,11 +14,13 @@
         font-weight: bold;
     }
 
-    div a
+    /* Общее */
+    html, body
     {
         width: 100%;
-        display: block;
         height: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     body
@@ -29,6 +30,16 @@
         font-family: "Trebuchet MS", sans-serif;
     }
 
+    div a
+    {
+        width: fit-content;
+        width: -moz-fit-content;
+        height: fit-content;
+        height: -moz-fit-content;
+        display: block;
+    }
+
+    /* Шапка */
     header
     {
         min-height: 6em;
@@ -38,25 +49,6 @@
         background-color: #AE93D9;
         margin-bottom: 1em;
         transition: 1s;
-    }
-
-    .bottom_wrapper
-    {
-        background-color: #AE93D9;
-    }
-
-    .line
-    {
-        width: 80vw;
-        margin-left: 10vw;
-        height: 1px;
-        margin-right: 10vw;
-        border-bottom: 1px solid #edeef0;
-    }
-
-    header a, bottom a, bottom .copyright {
-        color: #edeef0;
-        font-size: 1.2em;
     }
 
     .logo
@@ -69,7 +61,8 @@
 
     .logo, .header_menu, .sighup
     {
-        margin-left: auto;margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .logo, .header_menu, .header_menu > ul > li, .sighup
@@ -77,13 +70,8 @@
         display: inline-block;
     }
 
-    .bottom_menu
+    .header_menu > ul, .bottom_menu > ul
     {
-        padding-top: 3em;
-        padding-bottom: 3em;
-    }
-
-    .header_menu > ul, .bottom_menu > ul {
         list-style-type: none;
         margin-block-start: 0;
         margin-block-end: 0;
@@ -91,36 +79,18 @@
         margin-inline-end: 0;
         padding-inline-start: 0;
     }
-    
-    .bottom_menu > ul
-    {
-        display: flex;
-    }
 
-    .info
+    .header_menu li
     {
-        display: flex;
-        margin-left: 10vw;
-        margin-top: 2em;
-        padding-bottom: 2em;
-        margin-right: 10vw;
-    }
-
-    .header_menu li {
         margin: 0 4em 0 4em;
     }
 
-    .bottom_menu li
+    .sighup
     {
-        display: inline-block;
-        margin-left: auto;
         margin-right: auto;
     }
 
-    .sighup {
-        margin-right: auto;
-    }
-
+    /* Список лотов */
     .lot_list
     {
         display: flex;
@@ -155,19 +125,63 @@
         margin-bottom: 1em;
     }
 
-    .lot_desc, .lot_cost {
+    .lot_desc, .lot_cost
+    {
         display: flex;
         margin-bottom: 1em;
         margin-right: auto;
         margin-left: auto;
     }
     
-    .lot_link, .lot_author {
+    .lot_link, .lot_author
+    {
         display: inline-flex;
         margin-bottom: 1em;
         height: fit-content;
         height: -moz-fit-content;
         width: auto;
+    }
+
+    /* Подвал */
+    .bottom_wrapper
+    {
+        background-color: #AE93D9;
+    }
+
+    .bottom_menu
+    {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .bottom_menu > ul
+    {
+        display: flex;
+    }
+
+    .bottom_menu li
+    {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .line
+    {
+        width: 80vw;
+        margin-left: 10vw;
+        height: 1px;
+        margin-right: 10vw;
+        border-bottom: 1px solid #edeef0;
+    }
+
+    .info
+    {
+        display: flex;
+        margin-left: 10vw;
+        margin-top: 2em;
+        padding-bottom: 2em;
+        margin-right: 10vw;
     }
 
     .location, .contact, .copyright, .groups
@@ -188,69 +202,3 @@
         margin-left: 0;
     }
 }
-
-/*
-    body
-    {
-    width: 100%;
-    outline: 1px solid #787274;
-    padding: 5px;
-    margin: 0 auto;
-    position: relative;
-    }
-
-    header
-    {
-    height: 80px;
-    background: #25b33f;
-    margin-bottom: 5px;
-    }
-        
-    .sidebar1
-    {
-    height: 120px;
-    background-color: #2ff553;
-    margin-bottom: 10px;
-    width: 20%;
-    position: absolute;
-    top: 90px;
-    left: 5px;
-    }
-        
-    .sidebar2
-    {
-    height: 120px;
-    background-color: #2FF553;
-    margin-bottom: 10px;
-    width: 20%;
-    position: absolute;
-    top: 90px;
-    right: 5px;
-    }
-        
-    main
-    {
-    height: 120px;
-    background: #9ef7af;
-    margin: 0 auto;
-    width: 59%;
-    }
-        
-    .blok1, .blok2, .blok3, .blok4
-    {
-    float: left;
-    margin: 3px 3px 3px 5px;
-    width: 22%;
-    height: 25%;
-    padding: 5px;
-    text-align: center;
-    border: 2px solid;
-    }
-        
-    footer
-    {
-    height: 80px;
-    background: #41874e;
-    margin: 5px 0 0 0;
-    }
-} */

@@ -1,5 +1,6 @@
 [   
     {
+        "id": 1,
         "path": "#",
         "author": "Винсент Ван Гог",
         "author_path": "#",
@@ -9,15 +10,17 @@
         "start_cost": 57000000
     },
     {
+        "id": 2,
         "path": "#",
-        "author": "",
+        "author": "Леонардо да Винчи",
         "author_path": "#",
-        "title": "Картина №2",
-        "desc": "Описание №2",
-        "img": "#",
-        "start_cost": 2300000
+        "title": "Портрет госпожи Лизы дель Джоко́ндо",
+        "desc": "Одно из самых известных произведений живописи, в представлении не нуждается.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/250px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+        "start_cost": 56027000000
     },
     {
+        "id": 3,
         "path": "#",
         "author": "",
         "author_path": "#",
@@ -27,6 +30,7 @@
         "start_cost": 1560000
     },
     {
+        "id": 4,
         "path": "#",
         "author": "",
         "author_path": "#",
@@ -36,6 +40,7 @@
         "start_cost": 2300000
     },
     {
+        "id": 5,
         "path": "#",
         "author": "",
         "author_path": "#",
@@ -45,6 +50,7 @@
         "start_cost": 2300000
     },
     {
+        "id": 6,
         "path": "#",
         "author": "",
         "author_path": "#",
@@ -54,83 +60,12 @@
         "start_cost": 2300000
     },
     {
+        "id": 7,
         "path": "#",
         "author": "",
         "author_path": "#",
         "title": "Картина №7",
         "desc": "Описание №7",
-        "img": "#",
-        "start_cost": 2300000
-    },
-    {
-        "path": "#",
-        "author": "",
-        "author_path": "#",
-        "title": "Картина №8",
-        "desc": "Описание №8",
-        "img": "#",
-        "start_cost": 2300000
-    },
-    {
-        "path": "#",
-        "author": "",
-        "author_path": "#",
-        "title": "Картина №9",
-        "desc": "Описание №9",
-        "img": "#",
-        "start_cost": 2300000
-    },
-    {
-        "path": "#",
-        "author": "",
-        "author_path": "#",
-        "title": "Картина №10",
-        "desc": "Описание №10",
-        "img": "#",
-        "start_cost": 2300000
-    },
-    {
-        "path": "#",
-        "author": "",
-        "author_path": "#",
-        "title": "Картина №11",
-        "desc": "Описание №11",
-        "img": "#",
-        "start_cost": 2300000
-    },
-    {
-        "path": "#",
-        "author": "",
-        "author_path": "#",
-        "title": "Картина №12",
-        "desc": "Описание №12",
-        "img": "#",
-        "start_cost": 2300000
-    },
-    {
-        "path": "#",
-        "author": "",
-        "author_path": "#",
-        "title": "Картина №13",
-        "desc": "Описание №13",
-        "img": "#",
-        "start_cost": 2300000
-    },
-    {
-        "path": "#",
-        "author": "",
-        "author_path": "#",
-        "title": "Картина №14",
-        "desc": "Описание №14",
-        "img": "#",
-        "start_cost": 2300000
-    },
-    {
-        "path": "#",
-        "author": "",
-        "author_path": "#",
-        "title": "Картина №15",
-        "desc": "Описание №15",
         "img": "#",
         "start_cost": 2300000
     }
