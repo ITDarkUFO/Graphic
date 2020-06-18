@@ -12,7 +12,7 @@ $.ajax({
             $img = $value["img"];
             $start_cost = $value["start_cost"];
             $object += "<a class=\"lot_link\" href=\"" + $path + "\" title=\"" + $title + "\">" + $title + "</a>";
-            $object += "<span class=\"lot_author\">" + $author + "</span>";
+            $object += "<a class=\"lot_author\" href=\"" + $author_path + "\">" + $author + "</a>";
             $object += "<img class=\"lot_img\" src=\"" + $img + "\" alt=\"" + $title + "\"/>";
             $object += "<span class=\"lot_desc\">" + $desc + "</span>";
             $object += "<span class=\"lot_cost\">Стартовая стоимость: $" + $start_cost + "</span>";
