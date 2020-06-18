@@ -12,8 +12,8 @@ $.ajax({
             $desc = $value["desc"];
             $img = $value["img"];
             $start_cost = $value["start_cost"];
-            
-            $object += "<div class=\"lot\">";
+
+            $object += "<div class=\"lot\" data-id=\"" + $id + "\">";
             $object += "<a class=\"lot_link\" href=\"" + $path + "\" title=\"" + $title + "\">" + $title + "</a>";
             $object += "<a class=\"lot_author\" href=\"" + $author_path + "\">" + $author + "</a>";
             $object += "<img class=\"lot_img\" src=\"" + $img + "\" alt=\"" + $title + "\"/>";
