@@ -1,15 +1,18 @@
  @media (min-width: 980px)
 {
+    .lot_list
+    {
+        display: flex;
+    }
+
     .lot
     {
         padding: 1em;
         background-color: lightgray;
         border: 1px solid;
-    }
-
-    .lot_list
-    {
-        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30em;
     }
 
     .lot_link
@@ -24,10 +27,11 @@
 
     .lot_img
     {
-        width: 25em;
+        width: auto !important;
+        height: 15em !important;
     }
 
-    .lot, .lot_img, .lot_desc, .lot_cost {
+    .lot_desc, .lot_cost {
         display: flex;
         margin-bottom: 1em;
         margin-right: auto;
@@ -37,6 +41,8 @@
     .lot_link, .lot_author {
         display: inline-flex;
         margin-bottom: 1em;
+        height: fit-content;
+        width: auto;
     }
 }
 
