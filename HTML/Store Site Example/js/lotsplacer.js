@@ -2,7 +2,7 @@ try
 {
     console.log(1);
     $cart = getCookie("cart").split(",");
-    for (let i = 0; i < $cart.length - 1; i++)
+    for (let i = 0; i < $cart.length; i++)
     {
         console.log(2);
         if (typeof $cart[i] == "string")
@@ -36,7 +36,7 @@ function isincart(id)
 {
     if ($cart.indexOf(id) == -1)
     {
-        return "Добавить в корзину";
+        return "Убрать из корзины";
     }
     else
     {
