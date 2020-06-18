@@ -38,6 +38,15 @@
         background-color: #AE93D9;
     }
 
+    .line
+    {
+        width: 80vw;
+        margin-left: 10vw;
+        height: 1px;
+        margin-right: 10vw;
+        border-bottom: 1px solid #edeef0;
+    }
+
     header a, bottom a, bottom .copyright {
         color: #edeef0;
         font-size: 1.2em;
@@ -53,6 +62,12 @@
         display: inline-block;
     }
 
+    .bottom_menu
+    {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
     .header_menu > ul, .bottom_menu > ul {
         list-style-type: none;
         margin-block-start: 0;
@@ -62,12 +77,24 @@
         padding-inline-start: 0;
     }
     
-    .header_menu > ul > li {
+    .bottom_menu > ul
+    {
+        display: flex;
+    }
+
+    .header_menu li {
         margin: 0 4em 0 4em;
     }
 
+    .bottom_menu li
+    {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .sighup {
-        margin-right: 10em;
+        margin-right: auto;
     }
 
     .lot_list
