@@ -38,7 +38,7 @@
         background-color: #AE93D9;
     }
 
-    header a, bottom a {
+    header a, bottom a, bottom .copyright {
         color: #edeef0;
         font-size: 1.2em;
     }
