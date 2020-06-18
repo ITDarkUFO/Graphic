@@ -28,6 +28,11 @@ function addtocart(id)
     {
         delete $cart[$cart.indexOf(id)];
         $("#lot_" + id).find(".add_button").text("Добавить в корзину");
+
+        $cart = $cart.filter(function (el)
+        {
+            return el != undefined;
+        });
     }
     document.cookie="cart=" + $cart;
 }
