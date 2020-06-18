@@ -166,6 +166,7 @@
         display: inline-flex;
         margin-bottom: 1em;
         height: fit-content;
+        height: -moz-fit-content;
         width: auto;
     }
 
