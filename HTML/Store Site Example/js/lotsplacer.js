@@ -15,6 +15,18 @@ function addtocart(id)
     document.cookie="cart=" + $cart;
 }
 
+function isincart(id)
+{
+    if ($cart.indexOf(id) == -1)
+    {
+        return "Добавить в корзину";
+    }
+    else
+    {
+        return "Добавлено в корзину";
+    }
+}
+
 $.ajax({
     url: './js/json/paintings.json',
     success: function($data)
@@ -29,6 +41,7 @@ $.ajax({
             $desc = $value["desc"];
             $img = $value["img"];
             $start_cost = $value["start_cost"];
+            $text = isincart($id);
 
             $object += "<div class=\"lot\" id=\"lot_" + $id + "\">";
             $object += "<a class=\"lot_link\" href=\"" + $path + "\" title=\"" + $title + "\">" + $title + "</a>";
@@ -36,19 +49,7 @@ $.ajax({
             $object += "<img class=\"lot_img\" src=\"" + $img + "\" alt=\"" + $title + "\"/>";
             $object += "<span class=\"lot_desc\">" + $desc + "</span>";
             $object += "<span class=\"lot_cost\">Стартовая стоимость: $" + $start_cost + "</span>";
-            $object += "<a class=\"add_button\" onclick=\"addtocart(" + $id + ")\">" +
-            function()
-            {
-                if ($cart.indexOf(id) == -1)
-                {
-                    return "Добавить в корзину";
-                }
-                else
-                {
-                    return "Добавлено в корзину";
-                }
-            }
-            + "</a>";
+            $object += "<a class=\"add_button\" onclick=\"addtocart(" + $id + ")\">"+ $text + "</a>";
             $object += "</div>";
         });
         $object += "</div>";
