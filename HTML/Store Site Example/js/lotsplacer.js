@@ -29,7 +29,7 @@ function addtocart(id)
             return el != undefined;
         });
     }
-    if ($cart != [])
+    if ($cart.length != 0)
     {
         console.log(1);
         document.cookie="cart=" + $cart;
