@@ -82,6 +82,15 @@
         display: flex;
     }
 
+    .info
+    {
+        display: flex;
+        margin-left: 10vw;
+        margin-top: 2em;
+        padding-bottom: 2em;
+        margin-right: 10vw;
+    }
+
     .header_menu li {
         margin: 0 4em 0 4em;
     }
@@ -143,6 +152,24 @@
         margin-bottom: 1em;
         height: fit-content;
         width: auto;
+    }
+
+    .location, .contact, .copyright, .groups
+    {
+        margin-left: auto;
+        display: flex;
+        margin-right: auto;
+    }
+
+    .group_logo
+    {
+        margin-left: 1em;
+        display: inline-block;
+    }
+    
+    .group_logo:first-child
+    {
+        margin-left: 0;
     }
 }
 
