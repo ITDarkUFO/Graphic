@@ -37,6 +37,7 @@
         height: fit-content;
         height: -moz-fit-content;
         display: block;
+        cursor: pointer;
     }
 
     /* Шапка */
