@@ -1,16 +1,16 @@
-$cart = [];
+$cart = getCookie("cart").split(",");
 
 function addtocart(id)
 {
     if ($cart.indexOf(id) == -1)
     {
-        alert("Объект добавлен в массив");
         $cart.push(id);
+        $("lot_" + id).find(".add_button").text("Добавлено в корзину");
     }
     else
     {
-        alert("Объект убран из массива");
         delete $cart[$cart.indexOf(id)];
+        $("lot_" + id).find(".add_button").text("Добавить в корзину");
     }
     document.cookie="cart=" + $cart;
 }
@@ -30,13 +30,25 @@ $.ajax({
             $img = $value["img"];
             $start_cost = $value["start_cost"];
 
-            $object += "<div class=\"lot\">";
+            $object += "<div class=\"lot\" id=\"lot_" + $id + "\">";
             $object += "<a class=\"lot_link\" href=\"" + $path + "\" title=\"" + $title + "\">" + $title + "</a>";
             $object += "<a class=\"lot_author\" href=\"" + $author_path + "\">" + $author + "</a>";
             $object += "<img class=\"lot_img\" src=\"" + $img + "\" alt=\"" + $title + "\"/>";
             $object += "<span class=\"lot_desc\">" + $desc + "</span>";
             $object += "<span class=\"lot_cost\">Стартовая стоимость: $" + $start_cost + "</span>";
-            $object += "<a class=\"add_button\" onclick=\"addtocart(" + $id + ")\">Добавить</a>";
+            $object += "<a class=\"add_button\" onclick=\"addtocart(" + $id + ")\">" +
+            function()
+            {
+                if ($cart.indexOf(id) == -1)
+                {
+                    return "Добавить в корзину";
+                }
+                else
+                {
+                    return "Добавлено в корзину";
+                }
+            }
+            + "</a>";
             $object += "</div>";
         });
         $object += "</div>";
