@@ -5,12 +5,12 @@ function addtocart(id)
     if ($cart.indexOf(id) == -1)
     {
         $cart.push(id);
-        $("lot_" + id).find(".add_button").text("Добавлено в корзину");
+        $("#lot_" + id).find(".add_button").text("Убрать из корзины");
     }
     else
     {
         delete $cart[$cart.indexOf(id)];
-        $("lot_" + id).find(".add_button").text("Добавить в корзину");
+        $("#lot_" + id).find(".add_button").text("Добавить в корзину");
     }
     document.cookie="cart=" + $cart;
 }
