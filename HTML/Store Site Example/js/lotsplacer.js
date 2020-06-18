@@ -13,7 +13,6 @@ void addtocart(id)
         delete $cart[$cart.indexOf(id)];
     }
     document.cookie="cart=" + $cart;
-    return false;
 }
 
 $.ajax({
