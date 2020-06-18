@@ -1,4 +1,11 @@
-$cart = getCookie("cart").split(",");
+try
+{
+    $cart = getCookie("cart").split(",");
+}
+catch
+{
+    $cart = [];
+}
 
 function addtocart(id)
 {
