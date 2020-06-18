@@ -1,19 +1,14 @@
 try
 {
-    console.log(1);
     $cart = getCookie("cart").split(",");
     for (let i = 0; i < $cart.length; i++)
     {
-        console.log(2);
         if (typeof $cart[i] == "string")
-            console.log(3);
             $cart[i] = parseInt($cart[i], 10);
-            console.log(4);
     }
 }
 catch
 {
-    console.log(0);
     $cart = [];
 }
 
@@ -36,10 +31,12 @@ function addtocart(id)
     }
     if ($cart != [])
     {
+        console.log(1);
         document.cookie="cart=" + $cart;
     }
     else
     {
+        console.log(0);
         deleteCookie(cart);
     }
 }
