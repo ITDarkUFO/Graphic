@@ -1,5 +1,10 @@
  @media (min-width: 980px)
 {
+    html
+    {
+        background: linear-gradient(to top left, #EBCD8D, #AFD49D);
+        color: black;
+    }
     .lot_list
     {
         display: flex;
@@ -8,7 +13,7 @@
     .lot
     {
         padding: 1em;
-        background-color: lightgray;
+        background-color: #D4D4D4;
         border: 1px solid;
         margin-left: auto;
         margin-right: auto;
@@ -27,8 +32,7 @@
 
     .lot_img
     {
-        width: auto !important;
-        height: 15em !important;
+        width: inherit;
     }
 
     .lot_desc, .lot_cost {
