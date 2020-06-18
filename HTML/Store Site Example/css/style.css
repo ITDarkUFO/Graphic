@@ -91,6 +91,11 @@
     }
 
     /* Список лотов */
+    main
+    {
+        min-height: calc(100vh - 318px);
+    }
+    
     .lot_list
     {
         display: flex;
@@ -165,7 +170,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .line
     {
         width: 80vw;

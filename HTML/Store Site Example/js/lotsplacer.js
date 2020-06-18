@@ -1,6 +1,6 @@
 $cart = [];
 
-void addtocart(id)
+function addtocart(id)
 {
     if ($cart.indexOf(id) == -1)
     {
