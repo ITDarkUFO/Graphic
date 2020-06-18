@@ -7,6 +7,7 @@ $.ajax({
             $object += "<div class=\"lot\">";
             $path = $value["path"];
             $author = $value["author"];
+            $author_path = $value["author_path"]
             $title = $value["title"];
             $desc = $value["desc"];
             $img = $value["img"];
