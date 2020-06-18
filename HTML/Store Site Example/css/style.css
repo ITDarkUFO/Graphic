@@ -12,6 +12,21 @@
     {
         background: #edeef0;
         color: black;
+        font-family: "Trebuchet MS", sans-serif;
+    }
+
+    .logo, .menu, .menu > ul > li
+    {
+        display: inline-block;
+    }
+
+    .menu > ul {
+        list-style-type: none;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        padding-inline-start: 0;
     }
 
     .lot_list
