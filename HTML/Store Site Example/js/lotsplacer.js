@@ -31,12 +31,10 @@ function addtocart(id)
     }
     if ($cart.length != 0)
     {
-        console.log(1);
         document.cookie="cart=" + $cart;
     }
     else
     {
-        console.log(0);
         deleteCookie("cart");
     }
 }
