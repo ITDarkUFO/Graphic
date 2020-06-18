@@ -15,7 +15,19 @@
         font-family: "Trebuchet MS", sans-serif;
     }
 
-    .logo, .menu, .menu > ul > li
+    header
+    {
+        min-height: 6em;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo, .menu, .sighup
+    {
+        margin-left: auto;margin-right: auto;
+    }
+
+    .logo, .menu, .menu > ul > li, .sighup
     {
         display: inline-block;
     }
@@ -28,7 +40,15 @@
         margin-inline-end: 0;
         padding-inline-start: 0;
     }
+    
+    .menu > ul > li {
+        margin: 0 4em 0 4em;
+    }
 
+    .sighup {
+        margin-right: 10em;
+    }
+    
     .lot_list
     {
         display: flex;
