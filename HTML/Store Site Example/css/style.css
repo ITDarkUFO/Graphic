@@ -47,6 +47,10 @@
         cursor: pointer;
     }
 
+    input[type="submit"], input[type="checkbox"]
+    {
+        cursor: pointer;
+    }
     /* Шапка */
     header
     {
