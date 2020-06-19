@@ -70,7 +70,7 @@
         outline-offset: 0;
     }
 
-    .field > input:focus
+    .field > *:focus
     {
         outline-color: #AE93D9;
     }
