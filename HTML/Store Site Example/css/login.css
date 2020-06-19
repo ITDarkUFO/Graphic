@@ -1,0 +1,67 @@
+@media (min-width: 980px)
+{  
+    main
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    label > a
+    {
+        display: inline;
+    }
+
+    main > form
+    {
+        justify-content: center;
+        width: 25vw;
+        height: 25em;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5em;
+    }
+    
+    main > form:first-child
+    {
+        margin-left: 0;
+    }
+
+    fieldset
+    {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .field, .field > input[type="submit"]
+    {
+        width: 60%;
+        margin-top: 1em;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .field:first-child
+    {
+        margin-top: 25%;
+    }
+
+    .field > input
+    {
+        margin-left: auto;
+        height: 2em;
+    }
+
+    .field > label
+    {
+        align-self: center;
+    }
+
+    .forgot
+    {
+        display: inline-block;
+    }
+}

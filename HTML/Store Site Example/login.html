@@ -3,6 +3,7 @@
     <head>
         <title>Paintocracy - Вход</title>
         <link href="./css/style.css" rel="stylesheet">
+        <link href="./css/login.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
@@ -20,18 +21,20 @@
         <main>
             <form>
                 <fieldset>
-                    <div><label for="login">Логин<label><input type="text" id="login"></div>
-                    <div><label for="pass">Пароль<label><input type="password" id="pass"></div>
-                    <div><a href="">Забыли пароль?</a></div>
-                    <input type="submit" value="Войти">
+                    <div class="field"><label for="login">Логин<label><input type="text" id="login"></div>
+                    <div class="field"><label for="pass">Пароль<label><input type="password" id="pass"></div>
+                    <div class="field buttons">
+                        <a href="">Забыли пароль?</a>
+                        <input type="submit" value="Войти">
+                    </div>
                 </fieldset>
             </form>
             <form>
                 <fieldset>
-                    <div><label for="login">Логин<label><input type="text" id="login"></div>
-                    <div><label for="pass">Пароль<label><input type="password" id="pass"></div>
-                    <div><label for="conf">Я согласен с <a href="#">политикой конфиденциальности</a> и <a href="#">правилами компании</a>.</label><input type="checkbox" id="conf"></div>
-                    <input type="submit" value="Зарегистрироваться">
+                    <div class="field"><label for="email">Адрес<label><input type="email" id="email"></div>
+                    <div class="field"><label for="login">Логин<label><input type="text" id="login"></div>
+                    <div class="field"><label for="pass">Пароль<label><input type="password" id="pass"></div>
+                    <div class="field buttons"><input type="submit" value="Войти"></div>
                 </fieldset>
             </form>
         </main>

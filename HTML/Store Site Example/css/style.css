@@ -1,4 +1,4 @@
- @media (min-width: 980px)
+@media (min-width: 980px)
 {   
     /* Текст */
     header a, bottom a, bottom .copyright
@@ -108,6 +108,7 @@
     main
     {
         min-height: calc(100vh - 318px);
+        margin-bottom: 1em;
     }
 
     .lot_list
