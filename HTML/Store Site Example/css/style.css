@@ -64,10 +64,15 @@
 
     :focus
     {
-        outline-color: #AE93D9;
-        outline-style: solid;
+        outline-color: white;
+        outline-style: auto;
         outline-width: 1px;
-        outline-offset: -2px;
+        outline-offset: 0;
+    }
+
+    .field > input:focus
+    {
+        outline-color: white;
     }
 
     /* Шапка */
