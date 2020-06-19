@@ -64,7 +64,7 @@
     input[type="checkbox"] 
     {
         margin-right: 1em;
-        width: auto;
+        width: auto !important;
     }
 
     /*.field:first-child
