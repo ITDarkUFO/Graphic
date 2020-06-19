@@ -1,3 +1,8 @@
+*
+{
+    height: -moz-fit-content;
+}
+
 @media (min-width: 1200px)
 {   
     /* Текст */
@@ -60,8 +65,9 @@
     :focus
     {
         outline-color: #AE93D9;
-        outline-style: auto;
+        outline-style: solid;
         outline-width: 1px;
+        outline-offset: -2px;
     }
 
     /* Шапка */
