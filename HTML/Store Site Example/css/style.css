@@ -57,7 +57,7 @@
         height: 30.66px;
     }
 
-    .field > input:focus
+    :focus
     {
         outline-color: #AE93D9;
         outline-style: auto;
