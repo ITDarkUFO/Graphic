@@ -52,10 +52,18 @@
         cursor: pointer;
     }
 
-    .field > input[type="submit"] {
+    .field > input[type="submit"]
+    {
         height: 30.66px;
     }
-    
+
+    .field > input:focus
+    {
+        outline-color: #AE93D9;
+        outline-style: auto;
+        outline-width: 1px;
+    }
+
     /* Шапка */
     header
     {
