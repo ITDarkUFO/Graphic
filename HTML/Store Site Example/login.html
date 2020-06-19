@@ -20,6 +20,7 @@
         </header>
         <main>
             <form>
+                <h2 class="form_name">Форма входа</h2>
                 <fieldset>
                     <div class="field"><label for="login">Логин</label><input type="text" id="login"></div>
                     <div class="field"><label for="pass">Пароль</label><input type="password" id="pass"></div>
@@ -30,11 +31,16 @@
                 </fieldset>
             </form>
             <form>
+                <h2 class="form_name">Форма регистрации</h2>
                 <fieldset>
                     <div class="field"><label for="email">Адрес</label><input type="email" id="email"></div>
                     <div class="field"><label for="login">Логин</label><input type="text" id="login"></div>
                     <div class="field"><label for="pass">Пароль</label><input type="password" id="pass"></div>
-                    <div class="field buttons"><input type="submit" value="Войти"></div>
+                    <div class="field">
+                        <input type="checkbox" id="consent" style="margin-right: 1em;">
+                        <label for="consent">Я соглашаюсь с <a href="#">политикой конфиденциальности</a> и <a href="#">правилами компании</a>.</label>
+                    </div>
+                    <div class="field"><input type="submit" value="Зарегистрироваться"></div>
                 </fieldset>
             </form>
         </main>

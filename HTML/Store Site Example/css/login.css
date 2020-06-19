@@ -27,12 +27,22 @@
         margin-left: 0;
     }
 
+    .form_name
+    {
+        display: block;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
     fieldset
     {
         height: 100%;
         display: flex;
         justify-content: center;
         padding: 0;
+        border: solid 1px #e4e6e9;
+        border-radius: 5px;
+        background-color: white;
     }
     
     .field, .field > input[type="submit"]
@@ -53,6 +63,9 @@
     {
         margin-left: auto;
         height: 2em;
+        border: solid 1px #e4e6e9;
+        border-radius: 5px;
+        background: #edeef0;
     }
 
     .field > label

@@ -7,7 +7,7 @@
         font-size: 1.2em;
     }
 
-    a, h1, h2, h3, h4, h5, h6
+    a, h1, h2, h3, h4, h5, h6, .field > input[type="submit"]
     {
         color: #715F8C;
         text-decoration: none;
