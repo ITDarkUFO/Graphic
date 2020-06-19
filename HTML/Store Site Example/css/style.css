@@ -51,6 +51,11 @@
     {
         cursor: pointer;
     }
+
+    .field > input[type="submit"] {
+        height: 30.66px;
+    }
+    
     /* Шапка */
     header
     {
