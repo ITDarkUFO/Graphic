@@ -1,4 +1,4 @@
-@media (min-width: 980px)
+@media (min-width: 1200px)
 {  
     main
     {
@@ -54,6 +54,17 @@
         margin-left: auto;
     }
 
+    .field > input[type="submit"]
+    {
+        margin-right: 0;
+        min-width: min-content;
+    }
+    
+    input[type="checkbox"] 
+    {
+        width: min-content;
+    }
+
     /*.field:first-child
     {
         margin-top: 25%;
@@ -63,7 +74,8 @@
     {
         margin-left: auto;
         height: 2em;
-        border: solid 1px #e4e6e9;
+        width: inherit;
+        border: solid 1px #454950;
         border-radius: 5px;
         background: #edeef0;
     }
@@ -71,6 +83,11 @@
     .field > label
     {
         align-self: center;
+    }
+
+    .field > a
+    {
+        width: min-content;
     }
 
     .forgot
