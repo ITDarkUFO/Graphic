@@ -16,7 +16,8 @@
     {
         justify-content: center;
         width: 25vw;
-        height: 25em;
+        height: 27em;
+        min-height: auto;
         margin-top: auto;
         margin-bottom: auto;
         margin-left: 5em;
