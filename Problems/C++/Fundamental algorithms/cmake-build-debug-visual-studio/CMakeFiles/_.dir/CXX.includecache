@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/DarkUFO/Documents/GitHub/Sharing-Repository/Problems/C++/Fundamental algorithms/main.cpp
+iostream
+-
+cmath
+-
+

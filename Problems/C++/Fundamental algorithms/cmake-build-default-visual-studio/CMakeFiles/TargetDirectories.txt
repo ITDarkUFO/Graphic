@@ -1,0 +1,3 @@
+C:/Users/DarkUFO/Documents/GitHub/Sharing-Repository/Problems/C++/Fundamental algorithms/cmake-build-default-visual-studio/CMakeFiles/_.dir
+C:/Users/DarkUFO/Documents/GitHub/Sharing-Repository/Problems/C++/Fundamental algorithms/cmake-build-default-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/DarkUFO/Documents/GitHub/Sharing-Repository/Problems/C++/Fundamental algorithms/cmake-build-default-visual-studio/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\JetBrains CLion\bin\cmake\win\bin\cmake.exe" -G "CodeBlocks - NMake Makefiles" "C:\Users\DarkUFO\Documents\GitHub\Sharing-Repository\Problems\C++\Fundamental algorithms"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/DarkUFO/Documents/GitHub/Sharing-Repository/Problems/C++/Fundamental algorithms/cmake-build-default-visual-studio

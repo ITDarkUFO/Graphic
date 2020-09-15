@@ -41,6 +41,7 @@ int main() {
     Point A = Point(x, y);
     cin >> x >> y;
     Point B = Point(x, y);
+    cout << getSegmentLength(A, B) << endl;
     cin >> x >> y;
     Point C = Point(x, y);
     cin >> x >> y;
