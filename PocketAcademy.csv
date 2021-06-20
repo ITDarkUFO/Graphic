@@ -10,7 +10,7 @@
 #00003,Back
 #00004,Yes
 #00005,Нет
-#00006,=#00001
+#00006,Ок
 #00007,Сохранить
 #00008,Меню
 #00009,Self
@@ -620,8 +620,8 @@
 #00613,UFO Club
 #00614,Robotics Club
 #00615,<0>
-#00616,=#00615
-#00617,=#00615
+#00616,<0>
+#00617,<0>
 #00618,No Class
 #00619,<0>-<1>
 #00620,Yr <0>
@@ -1022,7 +1022,7 @@
 #01015,<0> has reached its 30th anniversary. Quite frankly, we're surprised at how well the school has done.|Some of the school's many graduates pooled their money to donate a series of Bronze Statues in honor of the achievement. We have a feeling this school is just getting started.
 #01016,50th Anniversary
 #01017,Incredibly, <0> has now reached its 50th anniversary. This game's developers are impressed by your persistence!|Thanks for playing our game, they were heard to say. There probably won't be any more events after this one, but feel free to email us your impressions of the game!
-#01018,=#00615
+#01018,=<0>
 #01019,We've just received word that the combination of <1>, <2> and <3> units at <0> has resulted in the creation of a <4>. This affects nearby facilities, boosts the number of Research Points you get, and can positively affect students! Popular Spots like this can also attract new students to your school.
 #01020,10 Students
 #01021,With the addition of a recent transfer student, <0> has now reached 10 students. The school is rapidly becoming part of the community, and the number of potential students is on the rise. <1>, the 10th student, talked to us briefly. I only just transferred here, but the other kids are nice and the school is lots of fun. Everybody reading this article should come here!
@@ -1455,7 +1455,7 @@
 #01452,#<0>
 #01453,<0> pts
 #01454,Go to classroom.
-#01455,=#00615
+#01455,=<0>
 #01456,Friendship
 #01457,Has no friends.
 #01458,Has <0> friend(s).
@@ -1488,8 +1488,8 @@
 #01486,Recent
 #01487,Crops and Prices
 #01488,Output:
-#01489,=#00615
-#01490,=#00615
+#01489,<0>
+#01490,<0>
 #01491,<0>:
 #01492,Highest Amount
 #01493,Collected:
@@ -1522,7 +1522,7 @@
 #01522,Tap OK to go to facility.
 #01523,Tap OK to view details.
 #01524,Confirmed
-#01525,=#00615
+#01525,<0>
 #01526,School Info
 #01527,<0> Year(s) Old
 #01528,Size
@@ -1530,9 +1530,9 @@
 #01530,Max Spirit
 #01531,Couples
 #01532,Pop Spots
-#01533,Clubs
-#01534,=#00615
-#01535,=#00615
+#01533,Клубы
+#01534,<0>
+#01535,<0>
 #01536,Tap OK for budget info.
 #01537,Tap OK for top 10.
 #01538,Subjects
@@ -1607,7 +1607,7 @@
 #01607,Новая игра
 #01608,Research
 #01609,Items
-#01610,=#01533
+#01610,Клубы
 #01611,=#01594
 #01612,=#01513
 #01613,No grads yet
@@ -1767,7 +1767,7 @@
 #01769,Fnl Gr Avg
 #01770,Max Spirit Points
 #01771,=#01531
-#01772,=#01533
+#01772,Клубы
 #01773,Winning Clubs
 #01774,Confirm
 #01775,<0>'s First Path Change
@@ -2126,7 +2126,7 @@
 #02128,小孩子请先得到<co=60,100,200>监护人</co>的允许再进行购买哦。呼呼呼。
 #02129,今后这个店也会一直开着的，请随时光临。
 #02130,呼呼呼，<br>请一定要再次光临哦。
-#02131,=#00615
+#02131,<0>
 #02132,游玩 <0>小时<1>分钟
 #02133,尝试申请
 #02134,最多可以将<br><0>名各地的用户<br>登录为好友。<br>根据好友的<br>总游戏时间，会在启动时<br>得到奖励加成。询问朋友的ID后<br>申请成为好友吧。
@@ -2247,9 +2247,9 @@
 #02249,返回标题
 #02250,小计 <0>点
 #02251,=#01158
-#02252,=#00615
-#02253,=#00615
-#02254,=#00615
+#02252,<0>
+#02253,<0>
+#02254,<0>
 #02255,保存游戏中
 #02256,对话框
 #02257,=#00580
@@ -2300,8 +2300,8 @@
 #02302,=#02296
 #02303,=#02301
 #02304,使用次数
-#02305,=#00615
-#02306,=#00615
+#02305,<0>
+#02306,<0>
 #02307,概要
 #02308,期间
 #02309,=#01646
