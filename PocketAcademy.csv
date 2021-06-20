@@ -1,16 +1,17 @@
-@title,English
+﻿@title,English
 @language,en-US
 @scale,auto
 @appli,29 - Do not change
 @version,3.01 - Do not change
 @author,Your Name
 #00000,英語
-#00001;OK
+#00000,英語
+#00001,Ок
 #00002,End
 #00003,Back
 #00004,Yes
 #00005,No
-#00006,OK
+#00006,Ок
 #00007,Save
 #00008,Menu
 #00009,Self
@@ -145,7 +146,7 @@
 #00138,For relaxing with friends.
 #00139,For making announcements.
 #00140,Come lie down if you're ill.
-#00141,Full of useful books.
+#00141,Full of useful boОкs.
 #00142,Watch educational videos.
 #00143,Sells convenient goods.
 #00144,Full of lab equipment.
@@ -173,7 +174,7 @@
 #00166,Produces pouches when mature.
 #00167,Produces rulers when mature.
 #00168,Produces bags when mature.
-#00169,Produces cookies when mature.
+#00169,Produces coОкies when mature.
 #00170,Produces wallets when mature.
 #00171,Produces hammers when mature.
 #00172,=#00161
@@ -184,7 +185,7 @@
 #00177,Exercise Spot
 #00178,Date Spot
 #00179,Friend Spot
-#00180,Spooky Spot
+#00180,SpoОкy Spot
 #00181,Study Spot
 #00182,Art Spot
 #00183,Homey Spot
@@ -207,7 +208,7 @@
 #00200,Tall Spot
 #00201,Action Spot
 #00202,Africa Spot
-#00203,Cooking Spot
+#00203,CoОкing Spot
 #00204,Election Spot
 #00205,Jealousy Spot
 #00206,Kairo Spot
@@ -361,7 +362,7 @@
 #00354,Mock UN
 #00355,Bonsai Contest
 #00356,Birding Fest
-#00357,Cook-Off
+#00357,CoОк-Off
 #00358,B-Ball Tourney
 #00359,Soccer Tourney
 #00360,Poetry Jam
@@ -372,11 +373,11 @@
 #00365,Indoor Shoes
 #00366,Club Card
 #00367,Pheromones
-#00368,Career Book
+#00368,Career BoОк
 #00369,Smart Strap
 #00370,Cupid Arrow
 #00371,Devil Arrow
-#00372,Name Book
+#00372,Name BoОк
 #00373,Use on student|to boost Int.
 #00374,Use on student|to boost Ath.
 #00375,Use on student|to boost Att.
@@ -416,7 +417,7 @@
 #00409,IT
 #00410,Game Dev.
 #00411,Translator
-#00412,Cook
+#00412,CoОк
 #00413,Bus Guide
 #00414,Journalist
 #00415,Pro Gamer
@@ -511,7 +512,7 @@
 #00504,An event where students|can make new friends.
 #00505,Design unique outfits and|show off on the catwalk.
 #00506,A staple of school life.|Everyone loves them.
-#00507,Bring home memories and|maybe broken bones.
+#00507,Bring home memories and|maybe brОкen bones.
 #00508,English
 #00509,Spelling
 #00510,Grammar
@@ -719,13 +720,13 @@
 #00712,Thanks to you, my abilities have reached their limits. Please focus on the other teachers.
 #00713,<0> is now level <1>!/Their salary went up by <2>% and they got <3> Education Points!
 #00714,I found some new teacher candidates, but there are too many system objects present./Remove some unused facilities or decorative items and try again.
-#00715,I looked for new teacher candidates, but couldn't find any...
+#00715,I loОкed for new teacher candidates, but couldn't find any...
 #00716,We had <0> applicants for the new teaching position!
 #00717,Going to: <0>
 #00718,The event caused a reduction in potential applicants...
 #00719,The event caused an increase in potential applicants!
 #00720,You found a new career path!/Career paths can be used by any student in the school./Students' attributes and grades increase according to their career paths. And some paths may trigger special events./See if your students realize their dream at the placement ceremony at the end of the 3rd year.
-#00721,Okay, we'll skip the event for now, but let's do something good next time!
+#00721,Окay, we'll skip the event for now, but let's do something good next time!
 #00722,I guess my youth is over. I'll try to behave at my next school. Goodbye...
 #00723,That's too bad, but I understand. I'll come and visit sometime./Say goodbye to the students for me...
 #00724,Starting <0>.
@@ -823,7 +824,7 @@
 #00816,One of the students who came to cheer us on gave us a Skateboard!/We can use it to move around outside.
 #00817,One of the students from the north gave us some Skates!/We can use them to cross the lake in the winter.
 #00818,One of the athletes there gave us some Skis!/We can use them to move around outside in the winter.
-#00819,I'm looking forward to the rest of my time here at school.
+#00819,I'm loОкing forward to the rest of my time here at school.
 #00820,The article decreased|the number of|potential students...
 #00821,The article greatly increased|the number of|potential students...
 #00822,The article increased|the number of|potential students...
@@ -877,8 +878,8 @@
 #00870,<0> is already going out with <1>.
 #00871,There's no one they can ask out...
 #00872,<0> isn't part of a couple.
-#00873,They broke up...
-#00874,<0> and <1> broke up...
+#00873,They brОкe up...
+#00874,<0> and <1> brОкe up...
 #00875,Renaming <0>!
 #00876,You can't make any more of these now.
 #00877,You don't have enough <1> Points to make a <0>.
@@ -983,7 +984,7 @@
 #00976,<0> has an aura!/When a student has an aura, they will do better at challenges and tests./Auras can happen naturally or as a result of specal classes./They will naturally fade after they have been used.
 #00977,Tests are now over./Soon we'll get the results and find out how we did against other schools!/Now the teachers will start grading and the students can relax./We'll get a bonus depending on our score. Exciting, huh?
 #00978,Special Spring Issue
-#00979,If you didn't already know it was spring, the cherry blossoms would certainly give you a hint.|And flowers aren't the only thing blossoming. There's a new school in the area: <0>. We look forward to seeing what kind of niche it will carve out for itself.
+#00979,If you didn't already know it was spring, the cherry blossoms would certainly give you a hint.|And flowers aren't the only thing blossoming. There's a new school in the area: <0>. We loОк forward to seeing what kind of niche it will carve out for itself.
 #00980,Classroom Shortage
 #00981,According to a letter we received, some students are unable to attend school due to a shortage of classrooms. If this continues, it can drastically affect the student's grades...
 #00982,Transfer Students
@@ -995,7 +996,7 @@
 #00988,Principal's Office
 #00989,Our sources have revealed that <0> has just built a brand new principal's office! And what school would be complete without a place where students can be intimidated and lectured? Of course, some students seem oddly invigorated by being called to the principal's office. The experience can even trigger an aura in some people.
 #00990,Making Friends
-#00991,According to our research, the students at <0> are a shy bunch. Until recently, none of them had even talked to the opposite sex in the hallways! But <1> took the initiative and broke the ice. Talking with the opposite sex can increase tension, sometimes even triggering an aura. Ah, to be young...
+#00991,According to our research, the students at <0> are a shy bunch. Until recently, none of them had even talked to the opposite sex in the hallways! But <1> toОк the initiative and brОкe the ice. Talking with the opposite sex can increase tension, sometimes even triggering an aura. Ah, to be young...
 #00992,School Expansion
 #00993,<0> is continuing its steady growth with the addition of a new school gate. Since people naturally use the closest gate, having another one can help them get home more quickly and make your school run more smoothly. You can build a gate at the very edge of the map, but just remember that there has to be a path to it from the Main Gate for it to function.
 #00994,New Plants
@@ -1027,7 +1028,7 @@
 #01020,10 Students
 #01021,With the addition of a recent transfer student, <0> has now reached 10 students. The school is rapidly becoming part of the community, and the number of potential students is on the rise. <1>, the 10th student, talked to us briefly. I only just transferred here, but the other kids are nice and the school is lots of fun. Everybody reading this article should come here!
 #01022,20 Students
-#01023,With the addition of a recent transfer student, <0> has now reached 20 students, bringing the school to an impressive size. We talked briefly to <1>, the 20th student who cheerfully announced: This school is much more beautiful than it looked like in the pamphlet--I'm lucky to be able to go here! 
+#01023,With the addition of a recent transfer student, <0> has now reached 20 students, bringing the school to an impressive size. We talked briefly to <1>, the 20th student who cheerfully announced: This school is much more beautiful than it loОкed like in the pamphlet--I'm lucky to be able to go here! 
 #01024,First Event
 #01025,<0> hosted its first school event--a <1>. The student body seemed quite excited by the new experience, and it will no doubt attract new students of all types.
 #01026,Tuition Increase
@@ -1039,7 +1040,7 @@
 #01032,Letting It Slide
 #01033,Special classes have a direct effect in improving student performance, but some schools have not been using them.|It has been quite some time since <0> held such a class. Students there have been heard to comment that they like to do something different from time to time.|Special classes do consume Research Points, but when used well they can have a big effect on student performance and placement rate.
 #01034,Placement Tests
-#01035,It's that time of year again--3rd year placement tests are next month. These tests finalize students' post-graduation plans and can have a big effect on their lives. Of course not every student can realize their dream. For some, changing to a more realistic plan is advisable. In these cases, school administrators should consider giving them career guidance. The Career Book item can be particularly handy for this. 
+#01035,It's that time of year again--3rd year placement tests are next month. These tests finalize students' post-graduation plans and can have a big effect on their lives. Of course not every student can realize their dream. For some, changing to a more realistic plan is advisable. In these cases, school administrators should consider giving them career guidance. The Career BoОк item can be particularly handy for this. 
 #01036,Following
 #01037,Today, we'd like to introduce the Follow command. If you open a student's info screen and touch the Follow button, you can follow them around the school. Observing a student's actions can help you plan where to put certain facilities.
 #01038,Big Success
@@ -1086,14 +1087,14 @@
 #01079,We finally have a Popular Spot at our school!/Popular Spots are formed by building compatible facilities near each other./Spots will give bonuses to Research Points and student performance./They can also attract new students to the school./Spots that you have discovered will be listed in the Spot Guide./But there may be more hidden spots for you to find!
 #01080,I just got back from an educational conference./And while I was there, I was able to get a <0> kit!/I hope we can use it to improve our students' performance!
 #01081,New Subject: <0>
-#01082,The school is growing quite nicely./But to reach the next level, we need a Popular Spot./I just found this guidebook. Maybe it'll come in handy./But I think there are some Spots that aren't listed...
+#01082,The school is growing quite nicely./But to reach the next level, we need a Popular Spot./I just found this guideboОк. Maybe it'll come in handy./But I think there are some Spots that aren't listed...
 #01083,Spot Guide added.
 #01084,<0> years have passed already./You're only one year from the end./You might want to try making one last push for the high score.
 #01085,<0> has collected the first product from a <1>./Proceeds from selling it will go directly to our school funds./Producing products like this can be a big help to our bottom line.
 #01086,Um.../
 #01087,Excuse me, but.../
 #01088,We can't go to this school without a classroom!/Please build a Y<0> classroom.
-#01089,I was looking into the career paths available at <0>...
+#01089,I was loОкing into the career paths available at <0>...
 #01090,/And I've decided to choose the <0> path!
 #01091,/I never knew the <0> career path existed!
 #01092,/I think maybe the <0> path is right for me!
@@ -1103,8 +1104,8 @@
 #01096,Good morning./When I got to school, I noticed that the <0> wasn't connected to the Main Gate!/Please rebuild the path so I can go to school!
 #01097,Hello. I'm from <0>./I waited until the end of school, but the teacher didn't come.../Maybe the path from the Teachers' Room is cut off./Or you might need to hire more teachers./Please do something so we can have class.
 #01098,Boo! I mean, hello!/I came when I heard your school had a <0>./If you'd like to hire me, I'm sure you wouldn't regret it.
-#01099,Greetings!/I am a Middle Eastern petroleum magnate./But some recent setbacks have forced me to look for work./I thought perhaps I could help out at a school with a <0>./If you're interested, please hire me as a teacher.
-#01100,Konnichiwa. I am a samurai warrior./The samurai business is slow these days, so I am looking for work./My talents might come in handy at a school with a <0>./If you're interested, please hire me as a teacher.
+#01099,Greetings!/I am a Middle Eastern petroleum magnate./But some recent setbacks have forced me to loОк for work./I thought perhaps I could help out at a school with a <0>./If you're interested, please hire me as a teacher.
+#01100,Konnichiwa. I am a samurai warrior./The samurai business is slow these days, so I am loОкing for work./My talents might come in handy at a school with a <0>./If you're interested, please hire me as a teacher.
 #01101,Hello./I read that your school had a <0>./I used to study education theory, and now I'd like to put it into practice./If you have any openings, I'd be happy to teach here.
 #01102,Hello there./I read in a magazine that your school had a <0>./I'm sure I could contribute to the students' education if you'd hire me.
 #01103,Hello!/The fields near the <0> are perfect for honey production./I've been secretly collecting honey here for some time, but.../After seeing your kids, I thought maybe I could help them./If you could hire me as a teacher, I'd love to try.
@@ -1119,7 +1120,7 @@
 #01112,You're running out of money./But as luck would have it, I recently applied for a special grant of <0>!/Be careful with it, and remember to put the students first.
 #01113,=#01066
 #01114,Your funds are getting a little low./Luckily we were just given a special grant of <0> for our past performance!/Use it well!
-#01115,You're in the red.../That means you can't build new facilities. The future doesn't look too bright./But don't give up. Reevaluate your teachers' salaries and school upkeep./Cut out unnecessary expenses to bring you back into the black!
+#01115,You're in the red.../That means you can't build new facilities. The future doesn't loОк too bright./But don't give up. Reevaluate your teachers' salaries and school upkeep./Cut out unnecessary expenses to bring you back into the black!
 #01116,It's time for the summer event.|
 #01117,It's time for the autumn event.|
 #01118,/But we're just getting started, so there's no need to push ourselves./We'll try doing something in the fall.
@@ -1463,7 +1464,7 @@
 #01460,Stats
 #01461,Stats are at max.
 #01462,Lvl Up: Use
-#01464,Tap OK to dismiss.
+#01464,Tap Ок to dismiss.
 #01465,Salary
 #01466,Level Up
 #01467,Dismiss
@@ -1519,8 +1520,8 @@
 #01519,Spirit
 #01520,Uses/yr
 #01521,Students
-#01522,Tap OK to go to facility.
-#01523,Tap OK to view details.
+#01522,Tap Ок to go to facility.
+#01523,Tap Ок to view details.
 #01524,Confirmed
 #01525,=#00615
 #01526,School Info
@@ -1533,8 +1534,8 @@
 #01533,Clubs
 #01534,=#00615
 #01535,=#00615
-#01536,Tap OK for budget info.
-#01537,Tap OK for top 10.
+#01536,Tap Ок for budget info.
+#01537,Tap Ок for top 10.
 #01538,Subjects
 #01539,=#01398
 #01540,Teachers
@@ -1549,7 +1550,7 @@
 #01549,Mvmnt Items
 #01550,Ed. Kits
 #01551,???
-#01552,Tap OK to change uniforms.
+#01552,Tap Ок to change uniforms.
 #01553,Test Results
 #01554,-- pts
 #01555,Show past results
@@ -1588,7 +1589,7 @@
 #01588,Send <0> to
 #01589,study abroad?
 #01590,Proceed?
-#01591,OK
+#01591,Ок
 #01592,=#00004
 #01593,=#00005
 #01594,Path
@@ -1648,11 +1649,11 @@
 #01650,This can now be built.
 #01651,Congratulations!
 #01652,Build a New School
-#01653,Tap OK to rename.
+#01653,Tap Ок to rename.
 #01654,← → to change face.
 #01655,← → to change gender.
 #01656,← → to change type.
-#01657,Tap OK to start.
+#01657,Tap Ок to start.
 #01658,Create your first student.
 #01659,Face
 #01660,Gender
@@ -1669,9 +1670,9 @@
 #01671,Choose a name and uniforms.
 #01672,Boys Unif.
 #01673,Girls Unif.
-#01674,↑↓ to move, OK to change
+#01674,↑↓ to move, Ок to change
 #01675,← → to change uniform.
-#01676,Tap OK to proceed.
+#01676,Tap Ок to proceed.
 #01677,Next >>
 #01678,Taking Challenge
 #01679,After Graduation: <0>
@@ -1776,7 +1777,7 @@
 #01778,Allocate Points
 #01779,Boost which stats?
 #01780,Points Left
-#01781,OK
+#01781,Ок
 #01782,=#01435
 #01783,Create Item
 #01784,Have:
@@ -1797,7 +1798,7 @@
 #01799,<0> members.
 #01800,Choose New Uniforms
 #01801,Cost to change is <0>.
-#01802,Tap OK to change.
+#01802,Tap Ок to change.
 #01803,Types: Boys <0> / Girls <1>
 #01804,=#01774
 #01805,High Score
@@ -1811,7 +1812,7 @@
 #01813,Quit the game and head to
 #01814,Kairo Park?
 #01815,our App intro page?
-#01816,OK
+#01816,Ок
 #01817,Start
 #01818,Full Version
 #01819,Lite Version
@@ -1860,7 +1861,7 @@
 #01862,game in this simulation.
 #01863,Take your game company
 #01864,to the top of the industry.
-#01865,Make a hit comic book
+#01865,Make a hit comic boОк
 #01866,=#01858
 #01867,Y<0> M<1> W<2>
 #01868,Select data to load
@@ -1917,7 +1918,7 @@
 #01919,An error occurred. Retry?
 #01920,[Error Info]
 #01921,Use [*] to copy.
-#01922,Select OK to start sending.
+#01922,Select Ок to start sending.
 #01923,Sending save data...
 #01924,Save failed (<0>).
 #01925,Get full version
@@ -2041,7 +2042,7 @@
 #02043,Holiday
 #02044,=#01450
 #02045,Nervous
-#02046,It's okay
+#02046,It's Окay
 #02047,So tired
 #02048,Slept well
 #02049,Grdtn
@@ -2095,7 +2096,7 @@
 #02097,=#01557
 #02098,=#01557
 #02099,连接中
-#02100,OK
+#02100,Ок
 #02101,欢迎光临
 #02102,售罄
 #02103,呼呼呼。\n要买什么？
@@ -2145,7 +2146,7 @@
 #02147,先输入你的昵称吧
 #02148,点击这里
 #02149,※之后可以变更※
-#02150,OK
+#02150,Ок
 #02151,输入新的昵称吧
 #02152,<0>  <1>小时 <2>分钟
 #02153,上次启动时
@@ -2336,7 +2337,7 @@
 #02338,=#01813
 #02339,连接至开罗公园
 #02340,连接至游戏介绍页面
-#02341,OK
+#02341,Ок
 #02342,=#01879
 #02343,=#01855
 #02344,=#01856
@@ -2375,7 +2376,7 @@
 #02377,=#01936
 #02378,=#01819
 #02379,发生错误。
-#02380,OK
+#02380,Ок
 #02381,请将游戏设定画面中“游戏权限”全部设为开启后再次启动游戏。
 #02382,请稍候片刻
 #02383,权限：请允许访问存储空间后重新启动游戏。<br>※保存游戏时所必须。
