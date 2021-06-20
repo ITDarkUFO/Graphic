@@ -31,16 +31,16 @@
 #00024,Rename
 #00025,Name
 #00026,High scores are available in the Full Version!
-#00027,Sunny Vale
-#00028,Normalville
-#00029,Lakeside
-#00030,Hill Valley
-#00031,Heavenly Hills
-#00032,A well-balanced map.
-#00033,An average suburb.
-#00034,Beautiful map with a lake.
-#00035,A mountainous map.
-#00036,A wealthy urban area.
+#00027,Солнечная долина
+#00028,Нормалвилль
+#00029,Приозерье
+#00030,Холмистая долина
+#00031,Небесные холмы
+#00032,Хорошо сбалансированная карта
+#00033,Обычный пригород
+#00034,Красивая карта с озером
+#00035,Горная карта
+#00036,Богатый городской район
 #00037,Wood Hall
 #00038,Panel Hall
 #00039,Remove
@@ -1647,7 +1647,7 @@
 #01649,Research cost is <0>.
 #01650,This can now be built.
 #01651,Congratulations!
-#01652,Build a New School
+#01652,Построить новую школу
 #01653,Tap Ок to rename.
 #01654,← → to change face.
 #01655,← → to change gender.
@@ -1664,7 +1664,7 @@
 #01666,Баллов
 #01667,In the Lite version,
 #01668,Only <0> is available.
-#01669,Not Cleared
+#01669,Не завершено
 #01670,<0> баллов
 #01671,Choose a name and uniforms.
 #01672,Boys Unif.
@@ -2275,7 +2275,7 @@
 #02277,音量。
 #02278,=#01177
 #02279,=#01177
-#02280,Кол-во баллов3
+#02280,Кол-во баллов
 #02281,通关点数的计算
 #02282,=#00012
 #02283,维护费/月
