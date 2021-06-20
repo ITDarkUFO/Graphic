@@ -6,18 +6,18 @@
 @author,DarkUFO
 #00000,Английский
 #00001,Ок
-#00002,End
+#00002,Конец
 #00003,Назад
-#00004,Yes
-#00005,No
+#00004,Да
+#00005,Нет
 #00006,Ок
-#00007,Save
-#00008,Menu
+#00007,Сохранить
+#00008,Меню
 #00009,Self
 #00010,Top
 #00011,Сайт
-#00012,Next
-#00013,Details
+#00012,Далее
+#00013,Детали
 #00014,Switch
 #00015,Info
 #00016,Follow
@@ -584,7 +584,7 @@
 #00577,Placement Test
 #00578,S Abroad Dep
 #00579,S Abroad Ret
-#00580,Event
+#00580,Событие
 #00581,MVP Award
 #00582,Stray Dog
 #00583,Love Event
@@ -639,7 +639,7 @@
 #00632,Getting Data
 #00633,Запуск игры
 #00634,Authenticating
-#00635,Ass't Principal
+#00635,Помощница директора
 #00636,<0> Research
 #00637,=#00636
 #00638,<0> #<1>
@@ -782,8 +782,8 @@
 #00775,/<0> level is now <1>!
 #00776,Overall tuition went up by <0>!
 #00777,<0> test failed...
-#00778,<1> students have entered <0>!/
-#00779,From now on, the students will study and use school facilities./For game help, select How to Play from the System menu./First try building some facilities to expand your school.
+#00778,<1> студента поступили в <0>!/
+#00779,С текущего момента, студенты будут учиться и использовать школьное оборудование./Для получения подсказки, выберите "Помощь" в пункте меню "Система"./Сначала попробуйте построить различные помещения, чтобы расширить свою школу.
 #00780,The 1st year students will now move on to a 2nd year classroom./It'll be nice to have new students at school.
 #00781,We've finally got graduating students this year. I hope their career plans work out...
 #00782,Give the 3rd years career guidance, but don't forget the other students!
@@ -934,7 +934,7 @@
 #00927,With friends cheering us on,|we're sure to do well!
 #00928,A transfer student has arrived.
 #00929,The <0> is finished.
-#00930,The enrollment ceremony went well.|We received <0> in entrance fees.
+#00930,Церемония зачисления прошла хорошо.|Мы получили <0> в качестве вступительного сбора.
 #00931,Graduation went well. 
 #00932,The placement test is now over.
 #00933,Finished.
@@ -1074,7 +1074,7 @@
 #01067,New Movement Item: <0>
 #01068,It's graduation day, but we don't have any graduating students.
 #01069,It's finally graduation day.../<1> students will be saying goodbye to <0>.
-#01070,Hello./I'm the assistant principal of <0>./We may have just opened this year, but I'm sure we'll be a Major School in no time!/It's time for the entrance ceremony. I wonder how many students we'll have...
+#01070,Привет./Я помощница директора <0>./Возможно, мы только открылись в этом году, но я уверена, что мы уже скоро станем крупной школой!/Пришло время вступительной церемонии. Интересно, сколько у нас будет студентов...
 #01071,/In the Lite version of the game, you can play until March of the 2nd year.
 #01072,The entrance ceremony is today. We've done this <1> times at <0> already./Unfortunately, we have no new students this year...
 #01073,The entrance ceremony is today. We've done this <1> times at <0> already./We've got <2> bright-eyed students coming in this year.
@@ -1147,12 +1147,12 @@
 #01140,Hello./Thanks for all of your hard work in building facilities for the school./But we still don't have any clubs.../I think having a club is a big part of school life, so please think about making one.
 #01141,The <0> has won its first competition!/This is sure to raise the status of the school and attract new students.
 #01142,Well done. This is the end of the Lite Version of the game./In the Full Version, you can play for as long as you like, and choose from 5 different maps./You can access the official site now to check it out./Thanks for playing!
-#01143,Build
+#01143,Строить
 #01144,Admin
 #01145,School
-#01146,Lists
-#01147,Map
-#01148,System
+#01146,Списки
+#01147,Карта
+#01148,Система
 #01149,Event Prep
 #01150,<0> is away.
 #01151,Creating <0>
@@ -1173,9 +1173,9 @@
 #01166,Env.
 #01167,Facil.
 #01168,Special
-#01169,=#00007
-#01170,Settings
-#01171,How to Play
+#01169,Сохранить
+#01170,Настройки
+#01171,Помощь
 #01172,Рейтинг
 #01173,Quit to Title
 #01174,About the Game
@@ -1411,8 +1411,8 @@
 #01407,Fast
 #01408,Perf.
 #01409,Graphics
-#01410,=#00004
-#01411,=#00005
+#01410,Да
+#01411,Нет
 #01412,Auto
 #01413,Lock
 #01414,Change game speed.
@@ -1566,7 +1566,7 @@
 #01566,A new issue of the
 #01567,school newspaper is out.
 #01568,Saving game…
-#01569,Game saved.
+#01569,Игра сохранена
 #01570,Insufficient funds
 #01571,Cannot register 0 pts.
 #01572,Cannot register $0.
@@ -1589,8 +1589,8 @@
 #01589,study abroad?
 #01590,Proceed?
 #01591,Ок
-#01592,=#00004
-#01593,=#00005
+#01592,Да
+#01593,Нет
 #01594,Path
 #01595,Facility
 #01596,Classroom
@@ -1601,8 +1601,8 @@
 #01601,Загрузить сохранение
 #01602,Нет автосохранения
 #01603,Пустой слот
-#01604,Y<0>
-#01605,M<0>W<1>
+#01604,Г<0>
+#01605,М<0> Н<1>
 #01606,Continue
 #01607,New Game
 #01608,Research
@@ -1628,7 +1628,7 @@
 #01629,Construction
 #01630,Personnel
 #01631,Other
-#01632,=#00580
+#01632,Событие
 #01633,Go to <0>
 #01634,Reward
 #01636,<0> weeks
@@ -1800,11 +1800,11 @@
 #01802,Tap Ок to change.
 #01803,Types: Boys <0> / Girls <1>
 #01804,=#01774
-#01805,Рекорд
+#01805,Рекорд1
 #01806,Кол-во баллов
 #01807,Макс. капитал в 10 году
 #01808,Нет рекорда
-#01809,Рекорд
+#01809,Рекорд2
 #01810,Kairo News
 #01811,Visit us at Kairo Park.
 #01812,Check out Kairo Park Apps.
@@ -1862,7 +1862,7 @@
 #01864,to the top of the industry.
 #01865,Make a hit comic boОк
 #01866,=#01858
-#01867,Y<0> M<1> W<2>
+#01867,Г<0> М<1> Н<2>
 #01868,Выбрать данные для загрузки
 #01869,=#01606
 #01870,=#01607
@@ -2231,13 +2231,13 @@
 #02233,在此之后可跳转至正式版的网站。
 #02234,期待与您再次相会。
 #02235,<0>最新刊<br>已发售
-#02236,=#00004
-#02237,=#00005
+#02236,Да
+#02237,Нет
 #02238,=#01148
-#02239,=#00007
+#02239,Сохранить
 #02240,更改设定
 #02241,=#02159
-#02242,Рекорд
+#02242,Рекорд3
 #02243,=#01880
 #02244,=#01606
 #02245,=#01607
@@ -2252,7 +2252,7 @@
 #02254,=#00615
 #02255,保存游戏中
 #02256,对话框
-#02257,=#00580
+#02257,Событие
 #02258,=#02240
 #02259,=#01401
 #02260,=#01400
@@ -2277,7 +2277,7 @@
 #02279,=#01177
 #02280,Кол-во баллов
 #02281,通关点数的计算
-#02282,=#00012
+#02282,Далее
 #02283,维护费/月
 #02284,基本
 #02285,加成
@@ -2411,7 +2411,7 @@
 #02413,=#00017
 #02414,销售
 #02415,=#00024
-#02416,=#00013
+#02416,Детали
 #02417,辞典
 #02418,=#02403
 #02419,=#00017
@@ -2428,7 +2428,7 @@
 #02430,作战
 #02431,分类
 #02432,诊断
-#02433,=#00007
+#02433,Сохранить
 #02434,=#00008
 #02435,补充
 #02436,设定
