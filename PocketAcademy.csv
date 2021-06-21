@@ -23,7 +23,7 @@
 #00016,Наблюдать
 #00017,Cancel
 #00018,Английский
-#00019,None
+#00019,Нет
 #00020,Санхиллс
 #00021,Джон Смит
 #00022,Джейн Смит
@@ -123,7 +123,7 @@
 #00116,Stone Robot
 #00117,Gold Robot
 #00118,Cherry Tree
-#00119,Поле
+#00119,Грядка
 #00120,Used for changing.
 #00121,Used for club activities.
 #00122,Provides fresh drinking water.
@@ -627,7 +627,7 @@
 #00620,Yr <0>
 #00621,Applicants
 #00622,Applicant Info
-#00623,Total
+#00623,Всего
 #00624,Growth Since Last Year
 #00625,Same
 #00626,Boy
@@ -662,11 +662,11 @@
 #00655,New facilities unlocked.
 #00656,Max <0> increased.
 #00657,You got some <0> seeds.
-#00658,Плохое
-#00659,Дерзкое
-#00660,Обычное
-#00661,Хорошее
-#00662,Ангельское
+#00658,Плох.
+#00659,Дерзк.
+#00660,Обычн.
+#00661,Хорош.
+#00662,Ангел.
 #00663,Aura has been used up.
 #00664,Aura activated!
 #00665,Thank you! I feel so fired up now!/I'll do my best to bring the students up to this level!
@@ -1162,11 +1162,11 @@
 #01155,Destroy what?
 #01156,Destroy until where?
 #01157,Loc (<0>,<1>)
-#01158,Total: <0>
+#01158,Всего: <0>
 #01159,You can't build there.
 #01160,Stats:
 #01161,M<0>
-#01162,No.
+#01162,Кол-во
 #01163,Year
 #01164,Grds
 #01165,Frnd
@@ -1398,7 +1398,7 @@
 #01394,How to Play Blank
 #01395,Студенты
 #01396,Учителя
-#01397,Оборудование
+#01397,Оборудов.
 #01398,Карьеры
 #01399,Каталог
 #01400,Скорость
@@ -1473,8 +1473,8 @@
 #01471,nearby to relax.
 #01472,Ежемес. содержание
 #01473,0
-#01474,<0> Main Gate
-#01475,<0> Back Gate
+#01474,Главные ворота <0>
+#01475,Задние ворота <0>
 #01476,Used to enter and leave.
 #01477,Empty
 #01478,Hire Teacher
@@ -1503,7 +1503,7 @@
 #01502,Power Up
 #01503,Part of <0> Spot(s).
 #01504,Not part of a Spot.
-#01505,=#01397
+#01505,Оборудование
 #01506,<0> List
 #01507,Spirit Points Top 10
 #01508,Yr
@@ -1512,10 +1512,10 @@
 #01511,Career
 #01512,=#01434
 #01513,Grad
-#01514,Total:
+#01514,Всего:
 #01516,<0> types
-#01517,=#01162
-#01518,Total Upkeep
+#01517,Кол-во
+#01518,Общее содерж.
 #01519,Spirit
 #01520,Uses/yr
 #01521,Students
@@ -1750,7 +1750,7 @@
 #01752,have increased!
 #01753,Детали объекта
 #01754,<0> in School
-#01755,Used to enter & leave.
+#01755,Используются для входа и выхода
 #01756,At max level
 #01757,Next Level: <0> Users
 #01758,Total Clear Points
@@ -1761,7 +1761,7 @@
 #01763,Facilities
 #01764,Paths
 #01765,Sub T.
-#01766,Total <0>
+#01766,Всего <0>
 #01767,=#01677
 #01768,Grads with Income of <0>+
 #01769,Fnl Gr Avg
