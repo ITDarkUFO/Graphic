@@ -123,7 +123,7 @@
 #00116,Stone Robot
 #00117,Gold Robot
 #00118,Cherry Tree
-#00119,Field
+#00119,Поле
 #00120,Used for changing.
 #00121,Used for club activities.
 #00122,Provides fresh drinking water.
@@ -695,7 +695,7 @@
 #00688,Scroll to select a location. Keep your finger on the item while scrolling to make fine adjustments. Tap to build.
 #00689,We don't have any students... This isn't good./Hurry up and build a classroom!
 #00690,No available guides...
-#00691,Наблюдение за <0>...
+#00691,Наблюдение за учеником <0>...
 #00692,On this screen, you can try academic challenges for each subject./If you succeed, you can increase monthly tuition./Education level is shared by the entire school.
 #00693,You have no items you can use on <0>.
 #00694,Moving to: <0>
@@ -983,7 +983,7 @@
 #00976,<0> has an aura!/When a student has an aura, they will do better at challenges and tests./Auras can happen naturally or as a result of specal classes./They will naturally fade after they have been used.
 #00977,Tests are now over./Soon we'll get the results and find out how we did against other schools!/Now the teachers will start grading and the students can relax./We'll get a bonus depending on our score. Exciting, huh?
 #00978,Спец. весенний выпуск
-#00979,If you didn't already know it was spring, the cherry blossoms would certainly give you a hint.|And flowers aren't the only thing blossoming. There's a new school in the area: <0>. We loОк forward to seeing what kind of niche it will carve out for itself.
+#00979,If you didn't already know it was spring, the cherry blossoms would certainly give you a hint.|And flowers aren't the only thing blossoming. There's a new school in the area: <0>. We look forward to seeing what kind of niche it will carve out for itself.
 #00980,Classroom Shortage
 #00981,According to a letter we received, some students are unable to attend school due to a shortage of classrooms. If this continues, it can drastically affect the student's grades...
 #00982,Transfer Students
@@ -1471,7 +1471,7 @@
 #01469,Not connected to Main Gate.
 #01470,Can help people passing
 #01471,nearby to relax.
-#01472,Monthly Upkeep
+#01472,Ежемесячное содержание
 #01473,0
 #01474,<0> Main Gate
 #01475,<0> Back Gate
@@ -1479,13 +1479,13 @@
 #01477,Empty
 #01478,Hire Teacher
 #01479,Hire a new teacher.
-#01480,<0>/yr
-#01481,Uses:
-#01482,Spirit Points
-#01483,Стоимость содержания
-#01484,Growth
+#01480,<0>/год
+#01481,Использований:
+#01482,Очки духа
+#01483,Содержание
+#01484,Рост
 #01485,Produces various crops.
-#01486,Recent
+#01486,Последний сбор
 #01487,Crops and Prices
 #01488,Output:
 #01489,<0>
@@ -1871,7 +1871,7 @@
 #01873,Выбирает приоритет работы
 #01874,между графикой и производит.
 #01875,Изменяет скорость игры
-#01876,(Разблок. после прохождения игры)
+#01876,(Разблок. после прохожд. игры)
 #01877,Выбирает, следует ли игра
 #01878,оринтации экрана или нет
 #01879,Выйти из игры?
