@@ -19,7 +19,7 @@
 #00012,Далее
 #00013,Детали
 #00014,Switch
-#00015,Info
+#00015,Информация
 #00016,Наблюдать
 #00017,Cancel
 #00018,=#00000
@@ -664,13 +664,13 @@
 #00657,You got some <0> seeds.
 #00658,Punk
 #00659,Defiant
-#00660,Обычный2
+#00660,Медленно
 #00661,Good
 #00662,Angelic
 #00663,Aura has been used up.
 #00664,Aura activated!
 #00665,Thank you! I feel so fired up now!/I'll do my best to bring the students up to this level!
-#00666,<1> of the <0> unit now exist(s). 
+#00666,На данный момент существует <1> экземпляр <0>. 
 #00667,Depending on the surroundings, you can harvest some crops.
 #00668,Depending on the surroundings, the product price will increase.
 #00669,Teachers can discover 
@@ -982,7 +982,7 @@
 #00975,We got a transfer student! Our reputation must be good!/I can't wait to see how many students we can get!
 #00976,<0> has an aura!/When a student has an aura, they will do better at challenges and tests./Auras can happen naturally or as a result of specal classes./They will naturally fade after they have been used.
 #00977,Tests are now over./Soon we'll get the results and find out how we did against other schools!/Now the teachers will start grading and the students can relax./We'll get a bonus depending on our score. Exciting, huh?
-#00978,Special Spring Issue
+#00978,Специальный весенний выпуск
 #00979,If you didn't already know it was spring, the cherry blossoms would certainly give you a hint.|And flowers aren't the only thing blossoming. There's a new school in the area: <0>. We loОк forward to seeing what kind of niche it will carve out for itself.
 #00980,Classroom Shortage
 #00981,According to a letter we received, some students are unable to attend school due to a shortage of classrooms. If this continues, it can drastically affect the student's grades...
@@ -1402,11 +1402,11 @@
 #01398,Career Paths
 #01399,Spot Guide
 #01400,Скорость
-#01401,Приоритет
+#01401,Приорит.
 #01402,See-Thru
 #01403,Музыка
 #01404,Звуки
-#01405,Автоповорот
+#01405,Поворот
 #01406,Normal
 #01407,Быстро
 #01408,Произв.
@@ -1435,7 +1435,7 @@
 #01432,Challenge
 #01433,Ask who out?
 #01434,Success Rt
-#01435,Использовать предмет
+#01435,Исп. предмет
 #01436,Характер: <0>
 #01437,Y<0> No Class
 #01438,No Career Path
@@ -1482,7 +1482,7 @@
 #01480,<0>/yr
 #01481,Uses:
 #01482,Spirit Points
-#01483,Upkeep
+#01483,Стоимость содержания
 #01484,Growth
 #01485,Produces various crops.
 #01486,Recent
@@ -1563,8 +1563,8 @@
 #01563,and check your signal.
 #01564,There is no data
 #01565,that can be loaded.
-#01566,A new issue of the
-#01567,school newspaper is out.
+#01566,Вышел новый номер 
+#01567,школьной газеты.
 #01568,Saving game…
 #01569,Игра сохранена
 #01570,Insufficient funds
@@ -1693,7 +1693,7 @@
 #01695,Congrats! They passed!
 #01696,They failed...
 #01697,=#01432
-#01698,Newspaper
+#01698,Страница газеты
 #01699,=#00923
 #01700,Results
 #01701,Success Rate: <0>%
@@ -1748,7 +1748,7 @@
 #01750,Effects on students & RP
 #01751,at the maximum!
 #01752,have increased!
-#01753,Facility Details
+#01753,Детали объекта
 #01754,<0> in School
 #01755,Used to enter & leave.
 #01756,At max level
@@ -1872,8 +1872,8 @@
 #01874,performance over graphics.
 #01875,Change the game's speed.
 #01876,(Unlocked after beating game.)
-#01877,=#01426
-#01878,=#01427
+#01877,Выбирает, следует ли игра
+#01878,оринтации экрана или нет
 #01879,Выйти из игры?
 #01880,Выйти
 #01881,Сообщение
@@ -2269,8 +2269,8 @@
 #02271,=#01874
 #02272,=#01875
 #02273,=#01876
-#02274,=#01426
-#02275,=#01427
+#02274,Выбирает, следует ли игра
+#02275,оринтации экрана или нет
 #02276,=#01424
 #02277,音量。
 #02278,=#01177
