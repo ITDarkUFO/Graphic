@@ -547,7 +547,7 @@
 #00540,Planting
 #00541,Harvesting
 #00542,Biotechnology
-#00543,PE
+#00543,Физ-ра
 #00544,Freeze Tag
 #00545,Sit-Ups
 #00546,Running Laps
@@ -558,7 +558,7 @@
 #00551,Keyboarding
 #00552,Spreadsheets
 #00553,AI
-#00554,Music
+#00554,Музыка
 #00555,Reading Music
 #00556,Recorder
 #00557,Piano
@@ -664,7 +664,7 @@
 #00657,You got some <0> seeds.
 #00658,Punk
 #00659,Defiant
-#00660,=#00332
+#00660,Обычный2
 #00661,Good
 #00662,Angelic
 #00663,Aura has been used up.
@@ -967,9 +967,9 @@
 #00960,Max Y2 classrooms increased.
 #00961,Max Y3 classrooms increased.
 #00962,<0> test day.
-#00963,1st Sem starting.
-#00964,2nd Sem starting.
-#00965,3rd Sem starting.
+#00963,Начинается первый семестр
+#00964,Начинается второй семестр
+#00965,Начинается третий семестр
 #00966,The results of the national achievement test are now in.
 #00967,The results for the final national achievement test of the year are now in.
 #00968,/Students not at school will be evaluated using day-to-day performance.
@@ -1074,7 +1074,7 @@
 #01067,New Movement Item: <0>
 #01068,It's graduation day, but we don't have any graduating students.
 #01069,It's finally graduation day.../<1> students will be saying goodbye to <0>.
-#01070,Привет./Я помощница директора <0>./Возможно, мы только открылись в этом году, но я уверена, что мы уже скоро станем крупной школой!/Пришло время вступительной церемонии. Интересно, сколько у нас будет студентов...
+#01070,Привет./Я помощница директора школы <0>./Возможно, мы только открылись в этом году, но я уверена, что мы уже скоро станем крупной школой!/Пришло время вступительной церемонии. Интересно, сколько у нас будет студентов...
 #01071,/In the Lite version of the game, you can play until March of the 2nd year.
 #01072,The entrance ceremony is today. We've done this <1> times at <0> already./Unfortunately, we have no new students this year...
 #01073,The entrance ceremony is today. We've done this <1> times at <0> already./We've got <2> bright-eyed students coming in this year.
@@ -1401,22 +1401,22 @@
 #01397,Facility List
 #01398,Career Paths
 #01399,Spot Guide
-#01400,Speed
-#01401,Priority
+#01400,Скорость
+#01401,Приоритет
 #01402,See-Thru
-#01403,=#00554
-#01404,SFX
-#01405,Rotation
+#01403,Музыка
+#01404,Звуки
+#01405,Автоповорот
 #01406,Normal
-#01407,Fast
-#01408,Perf.
-#01409,Graphics
+#01407,Быстро
+#01408,Произв.
+#01409,Графика
 #01410,Да
 #01411,Нет
-#01412,Auto
-#01413,Lock
-#01414,Change game speed.
-#01416,=#01414
+#01412,Автомат.
+#01413,Фиксиров.
+#01414,Изменяет скорость игры
+#01416,Изменяет скорость игры
 #01417,Complete game to unlock.
 #01418,Speed up game processing
 #01419,by not displaying walls.
@@ -1424,10 +1424,10 @@
 #01421,slow down processing.
 #01422,Shows people hidden by
 #01423,walls but can be slower.
-#01424,Adjust the volume.
+#01424,Регулирует громкость
 #01425, 
-#01426,Choose to automatically
-#01427,rotate the screen or not.
+#01426,Выбирает, следует ли игра
+#01427,оринтации экрана или нет
 #01428,Student Info
 #01429,Transfer Info
 #01430,Study Abroad
@@ -1539,7 +1539,7 @@
 #01539,=#01398
 #01540,Teachers
 #01541,Graduates
-#01542,=#00332
+#01542,Обычный3
 #01543,Change
 #01544, Rate
 #01545,Current Items
@@ -1575,8 +1575,8 @@
 #01575,Quit the game and
 #01576,go to title screen?
 #01577,go to Kairo Park?
-#01578,Current save data
-#01579,will be overwritten.
+#01578,Текущее сохранение
+#01579,будет перезаписано
 #01580,Cancel event?
 #01581,You have Points left.
 #01582,Quit Point allocation?
@@ -1804,7 +1804,7 @@
 #01806,Кол-во баллов
 #01807,Макс. капитал за 10 лет
 #01808,Нет рекорда
-#01809,Рекорд2
+#01809,Рекорд
 #01810,Kairo News
 #01811,Visit us at Kairo Park.
 #01812,Check out Kairo Park Apps.
@@ -1833,13 +1833,13 @@
 #01835,Balloon
 #01836,Eng
 #01837,Span
-#01838,Sci
+#01838,Наука
 #01839,Soc
 #01840,Int
 #01841,Ath
 #01842,Pop
 #01843,Att
-#01844,Hum
+#01844,Гум. наука
 #01845,=#01838
 #01846,Materials
 #01847,1st Sem
@@ -1867,7 +1867,7 @@
 #01869,Продолжить
 #01870,Новая игра
 #01871,Удалить
-#01872,=#01401
+#01872,Приоритет
 #01873,Selecting “Perf.” prioritizes
 #01874,performance over graphics.
 #01875,Change the game's speed.
@@ -1877,7 +1877,7 @@
 #01879,Выйти из игры?
 #01880,Выйти
 #01881,Сообщение
-#01882,=#01400
+#01882,Скорость
 #01883,Do not use: / | < > \
 #01884,Please enter a name.
 #01885,Enter up to <0> characters.
@@ -2254,9 +2254,9 @@
 #02256,对话框
 #02257,Событие
 #02258,=#02240
-#02259,=#01401
-#02260,=#01400
-#02261,=#00554
+#02259,Приоритет
+#02260,Скорость
+#02261,Музыка
 #02262,=#01404
 #02263,=#01405
 #02264,=#01409
