@@ -228,7 +228,7 @@
 #00221,Ted Armand
 #00222,Erik Piten
 #00223,Dutch Pitt
-#00224,Dave Valls
+#00224,Дейв Валлс
 #00225,Darius Ida
 #00226,Bob Balius
 #00227,Hal Reese
@@ -236,15 +236,15 @@
 #00229,Al Kunka
 #00230,Sean Wise
 #00231,Elvin Bay
-#00232,Sonny Leva
+#00232,Соня Лева
 #00233,Elwood Moh
 #00234,Jackson Hu
 #00235,Dane Frack
 #00236,Rob Gross
 #00237,Abe Plue
-#00238,Tammy Gun
-#00239,Anne Low
-#00240,Tanya Gill
+#00238,Тэмми Ган
+#00239,Анна Лоу
+#00240,Таня Джилл
 #00241,Maddy Call
 #00242,Alice Mun
 #00243,Anna Ford
@@ -252,10 +252,10 @@
 #00245,Wendy Shal
 #00246,Vicky Holl
 #00247,Katy Ling
-#00248,Jane Kato
+#00248,Джейн Като
 #00249,Holly Bun
 #00250,Mia Pinto
-#00251,June Gold
+#00251,Джун Голд
 #00252,Eva Racine
 #00253,Ella Whit
 #00254,Amy Suby
@@ -269,7 +269,7 @@
 #00262,Toni Elam
 #00263,Elsie Peak
 #00264,Faye Dwyer
-#00265,Olga Olm
+#00265,Ольга Олм
 #00266,Janet Spel
 #00267,Ida Mays
 #00268,Kristi Tod
@@ -293,7 +293,7 @@
 #00286,Pam Tyree
 #00287,Agnes Huff
 #00288,Mat Dwyer
-#00289,Joe Watt
+#00289,Джо Ватт
 #00290,Terry Till
 #00291,Sydney Sal
 #00292,Jodi Bear
@@ -302,7 +302,7 @@
 #00295,Jon Benson
 #00296,Ryan Jonas
 #00297,Dan Black
-#00298,Andre Cant
+#00298,Андрэ Кант
 #00299,Jan Jiver
 #00300,Casper Dun
 #00301,King Ackbar
@@ -1476,11 +1476,11 @@
 #01474,Главные ворота <0>
 #01475,Задние ворота <0>
 #01476,Used to enter and leave.
-#01477,Empty
+#01477,Пусто
 #01478,Hire Teacher
 #01479,Hire a new teacher.
 #01480,<0>/год
-#01481,Использ.:
+#01481,Исп.:
 #01482,Очки вдохн.
 #01483,Содерж.
 #01484,Рост
@@ -1591,11 +1591,11 @@
 #01591,Ок
 #01592,Да
 #01593,Нет
-#01594,Дорожки
+#01594,Дорож.
 #01595,Facility
 #01596,Класс
 #01597,Испытания
-#01598,Спец. урок
+#01598,Спец. занят.
 #01599,Слот сохранения
 #01600,Загрузить автосохранение
 #01601,Загрузить сохранение
@@ -1737,9 +1737,9 @@
 #01739,Slope
 #01740,Present at school.
 #01741,Not present at school.
-#01742,<0> Students
-#01743,Grade Average
-#01744,Special Class
+#01742,Класс <0>
+#01743,Средняя оценка
+#01744,Спец. занятие
 #01745,Hold Event
 #01746,Times Held
 #01747,Стоим.
@@ -1935,7 +1935,7 @@
 #01937,Удалить текущий прогресс?
 #01938,Landscape mode available
 #01939,in the Full Version!
-#01940,Lvl. <0>
+#01940,Ур. <0>
 #01941,(C) Kairosoft Co., Ltd.
 #01942,Move
 #01943,Range
