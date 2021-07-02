@@ -82,7 +82,7 @@
 #00075,Lounge
 #00076,PA Rm
 #00077,Nurse's Rm
-#00078,Library
+#00078,Библиотека
 #00079,AV Room
 #00080,Tiny Mart
 #00081,Lab
@@ -1641,7 +1641,7 @@
 #01643,Type of Class
 #01644,Points
 #01645,Requests
-#01646,Cost
+#01646,Стоим.
 #01647,Research Facility
 #01648,Research Complete
 #01649,Research cost is <0>.
@@ -1702,9 +1702,9 @@
 #01704,There was no change...
 #01705,Available Subjects
 #01706,Perform which challenge?
-#01707,Subject
-#01708,Level
-#01709,=#01646
+#01707,Предмет
+#01708,Уровень
+#01709,Стоим.
 #01710,At Max
 #01711,Tuition Income
 #01712,Passing will increase tuition!
@@ -1730,9 +1730,9 @@
 #01732,=#01451
 #01733,=#01554
 #01734,=MID(#01728,1,-1)&'--'
-#01735,=#01399
-#01736, (Can Build)
-#01737, (Cannot Build)
+#01735,Каталог
+#01736, (Можно постр.)
+#01737, (Нельзя постр.)
 #01738,or
 #01739,Slope
 #01740,Present at school.
@@ -1742,8 +1742,8 @@
 #01744,Special Class
 #01745,Hold Event
 #01746,Times Held
-#01747,=#01646
-#01748,=#01466
+#01747,Стоим.
+#01748,Стоим.
 #01749,<0> is now Lvl.<1>
 #01750,Effects on students & RP
 #01751,at the maximum!
@@ -1784,7 +1784,7 @@
 #01786,Create
 #01787,Insufficient <0> Points.
 #01788,Max Rank
-#01789,=#01646
+#01789,Стоим.
 #01790,Period
 #01791,<0> Members
 #01792,No members.
@@ -2304,7 +2304,7 @@
 #02306,<0>
 #02307,概要
 #02308,期间
-#02309,=#01646
+#02309,Стоим.
 #02310,=#00025
 #02311,=#01451
 #02312,=#01763
